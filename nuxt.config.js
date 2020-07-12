@@ -48,6 +48,7 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/vuetify',
   ],
   /*
    ** Nuxt.js modules
@@ -55,13 +56,14 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
-    '@nuxt/content',
+    'nuxt-webfontloader',
   ],
-  /*
-   ** Content module configuration
-   ** See https://content.nuxtjs.org/configuration
-   */
-  content: {},
+
+  webfontloader: {
+    google: {
+      families: ['Roboto&display=swap', 'NotoSansJP&&display=swap'],
+    },
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
