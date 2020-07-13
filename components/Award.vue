@@ -16,6 +16,7 @@ export default {
 
 <style lang="scss" scoped>
 .Award {
+  margin-bottom: 100px;
   &-Title {
     margin-left: 0;
     margin-right: auto;
