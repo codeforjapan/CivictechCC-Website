@@ -1,14 +1,19 @@
 <template>
   <v-app class="app">
-    <v-app-bar app class="Header" elevation="0" height="85px">
-      <v-toolbar-title class="Title">Civictech Challenge Cup</v-toolbar-title>
-      <v-spacer />
-      <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
-        <div class="Ently-1">エントリーする</div>
-        <span class="Ently-2">８月３１日（月）まで！</span>
-      </v-btn>
-    </v-app-bar>
-    <v-main style="padding-top: 0;" class="fill-height" fluid>
+    <section class="FirstView">
+      <v-app-bar class="Header" elevation="0" height="85px">
+        <v-toolbar-title class="Title">Civictech Challenge Cup</v-toolbar-title>
+        <v-spacer />
+        <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
+          <div class="Ently-1">エントリーする</div>
+          <span class="Ently-2">８月３１日（月）まで！</span>
+        </v-btn>
+      </v-app-bar>
+      <v-container class="fill-height" align-center>
+        <FirstView class="FirstView-contain" />
+      </v-container>
+    </section>
+    <v-main style="padding-top: 0;" class="main fill-height" fluid>
       <nuxt />
     </v-main>
     <v-footer class="Footer" color="rgba(0,0,0,0)" height="60px">
@@ -39,7 +44,7 @@ html {
   box-sizing: border-box;
 }
 
-.app {
+.main {
   background-image: url('/BG.svg');
   background-size: cover;
   width: 100%;
@@ -103,6 +108,24 @@ html {
   }
   .Code-for-Japan {
     text-align: right;
+  }
+}
+
+.FirstView {
+  margin: 0;
+  position: static;
+  height: 100vh;
+  text-align: center;
+  background-image: url('/CCCBG.svg');
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  align-items: center;
+
+  &-contain {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 </style>
