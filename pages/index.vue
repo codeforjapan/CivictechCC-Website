@@ -1,7 +1,11 @@
 <template>
-  <div class="container">
+  <v-layout column justify-center align-center>
+    <section class="FirstView">
+      <v-container class="fill-height">
+        <FirstView class="FirstView-contain" />
+      </v-container>
+    </section>
     <div>
-      <Logo />
       <h1 class="title">
         CCC-Website
       </h1>
@@ -24,42 +28,25 @@
         </a>
       </div>
     </div>
-  </div>
+  </v-layout>
 </template>
 
-<script>
-export default {}
-</script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style lang="scss" scoped>
+.FirstView {
+  margin: 0;
+  position: static;
+  height: 100vh;
   text-align: center;
-}
+  background-image: url('/CCCBG.svg');
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  align-items: center;
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  &-contain {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 </style>
