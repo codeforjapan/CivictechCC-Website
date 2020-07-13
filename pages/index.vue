@@ -7,5 +7,6 @@
     <schedule />
     <sponsor />
     <organizer />
+    <contact />
   </v-layout>
 </template>
