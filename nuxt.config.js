@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Civictech Challenge Cup',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,15 +53,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt/content
-    'nuxt-webfontloader',
-  ],
+  modules: ['nuxt-svg-loader'],
 
   webfontloader: {
     google: {
-      families: ['Roboto&display=swap', 'NotoSansJP&&display=swap'],
+      families: ['Spartan&display=swap', 'NotoSansJP&&display=swap'],
     },
   },
   /*
