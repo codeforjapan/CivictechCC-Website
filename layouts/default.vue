@@ -27,21 +27,6 @@
   </v-app>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    offsetTop: 0,
-  }),
-
-  methods: {
-    onScroll(e) {
-      this.offsetTop = e.target.scrollHeight
-      console.log(e.target.scrollHeight)
-    },
-  },
-}
-</script>
-
 <style lang="scss" scoped>
 html {
   font-family: 'Spartan', Arial, sans-serif;
