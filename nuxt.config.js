@@ -105,7 +105,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-svg-loader'],
+  modules: ['nuxt-svg-loader', 'nuxt-user-agent'],
 
   webfontloader: {
     google: {

@@ -3,11 +3,17 @@
     <section-title
       class="Organizer-Title"
       en-title="Organizer"
-      ja-title="主催など"
+      ja-title="運営"
     />
-    <span class="Organizer-Description">
+    <span
+      v-if="$ua.isFromMobilephone()"
+      class="Organizer-Description Organizer-Description-mob"
+    >
       主催：一般社団法人コード・フォー・ジャパン
     </span>
+    <span v-else class="Organizer-Description"
+      >主催：一般社団法人コード・フォー・ジャパン</span
+    >
   </section>
 </template>
 
@@ -35,6 +41,9 @@ export default {
     line-height: 2.07;
     letter-spacing: normal;
     color: #170f7b;
+    &-mob {
+      font-size: 15px !important;
+    }
   }
 }
 </style>

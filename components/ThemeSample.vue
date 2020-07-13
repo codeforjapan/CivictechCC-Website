@@ -9,7 +9,19 @@
         />
       </v-col>
       <v-col>
-        <div class="ThemeSample-Description">
+        <div
+          v-if="$ua.isFromMobilephone()"
+          class="ThemeSample-Description ThemeSample-Description-mob"
+        >
+          <span>
+            テーマは何でもOK！
+          </span>
+          <br />
+          <span>
+            自分が興味のあるテーマを設定しよう！
+          </span>
+        </div>
+        <div v-else class="ThemeSample-Description">
           <span>
             テーマは何でもOK！
           </span>
@@ -55,6 +67,9 @@
     line-height: 1.5;
     letter-spacing: normal;
     color: #170f7b;
+    &-mob {
+      font-size: 22px;
+    }
   }
 }
 </style>
