@@ -14,14 +14,66 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
+    htmlAttrs: {
+      prefix: 'og: http://ogp.me/ns#',
+    },
     title: 'Civictech Challenge Cup',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          'CodeforJapan, Civictech, Award, アワード, 審査, 協賛, コンテスト, Civictech Challenge Cup',
+      },
+      {
+        hid: 'author',
+        name: 'author',
+        content: 'Code for Japan',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Civictech Challenge Cup',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: `https://ccc-develop.netlify.app/`,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Civictech Challenge Cup',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '学生がつくる未来のカタチ - 身の回りにある問題を学生の力で。 自分が気になる問題にチームで挑戦しましょう！',
+      },
+      {
+        hid: 'apple-mobile-web-app-title',
+        name: 'apple-mobile-web-app-title',
+        content: 'Civictech Challenge Cup',
+      },
+      {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          '学生がつくる未来のカタチ - 身の回りにある問題を学生の力で。 自分が気になる問題にチームで挑戦しましょう！',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://ccc-develop.netlify.app/ogp.png',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://ccc-develop.netlify.app/ogp.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
