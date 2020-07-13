@@ -5,7 +5,7 @@
       en-title="Guide Line"
       ja-title="募集要件"
     />
-    <v-card width="100%" color="#F5F5F2" class="GuideLine-Card">
+    <v-card width="100%" color="#F5F5F2" class="GuideLine-Card" elevation="0">
       <v-card-subtitle class="GuideLine-Card-Title">
         募集対象
       </v-card-subtitle>
