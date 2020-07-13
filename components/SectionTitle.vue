@@ -31,12 +31,12 @@ export default {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.8px;
     color: #170f7b;
   }
   &-Ja {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     font-stretch: normal;
     font-style: normal;

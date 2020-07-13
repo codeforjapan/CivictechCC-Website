@@ -13,8 +13,10 @@
         <FirstView class="FirstView-contain" />
       </v-container>
     </section>
-    <v-main style="padding-top: 0;" class="main fill-height" fluid>
-      <nuxt />
+    <v-main class="main fill-height" fluid>
+      <v-container>
+        <nuxt />
+      </v-container>
     </v-main>
     <v-footer class="Footer" color="rgba(0,0,0,0)" height="60px">
       <a
@@ -47,6 +49,7 @@ html {
 .main {
   background-image: url('/BG.svg');
   background-size: cover;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -124,6 +127,7 @@ html {
 
   &-contain {
     width: 100%;
+    margin-top: calc(-15vh + 85px);
     margin-left: auto;
     margin-right: auto;
   }
