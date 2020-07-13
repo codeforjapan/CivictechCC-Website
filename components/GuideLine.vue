@@ -93,7 +93,7 @@
       <v-card-actions class="align-center justify-center">
         <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
           <div class="Ently-1">エントリーする</div>
-          <span class="Ently-2">８月３１日（月）まで！</span>
+          <span class="Ently-2">8月31日（月）まで！</span>
         </v-btn>
       </v-card-actions>
     </v-card>
