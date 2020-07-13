@@ -1,5 +1,5 @@
 <template>
-  <v-card class="ThemeSampleCard" height="100%" color="#f5f5f2">
+  <v-card class="ThemeSampleCard" height="100%" color="#f5f5f2" elevation="0">
     <v-layout justify-center align-center column>
       <v-card-subtitle class="ThemeSampleCard-SubTitle">
         [Sample 1]
