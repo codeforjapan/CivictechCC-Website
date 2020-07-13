@@ -13,7 +13,7 @@
         <FirstView class="FirstView-contain" />
       </v-container>
     </section>
-    <v-main class="main fill-height" fluid>
+    <v-main class="main" fluid>
       <v-container>
         <nuxt />
       </v-container>
@@ -47,15 +47,14 @@ html {
 }
 
 .app {
-  overflow: hidden;
+  background-image: url('/BG.svg');
+  background-size: cover;
+  width: 100%;
 }
 
 .main {
-  background-image: url('/BG.svg');
-  background-size: cover;
   margin-top: 50px;
   width: 100%;
-  height: 100%;
 }
 
 .Header {

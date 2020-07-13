@@ -1,5 +1,5 @@
 <template>
-  <v-layout column>
+  <v-layout class="index" column>
     <theme-sample />
     <examination-criteria />
     <award />
@@ -10,3 +10,9 @@
     <contact />
   </v-layout>
 </template>
+
+<style scoped>
+.index {
+  overflow: hidden;
+}
+</style>
