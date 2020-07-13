@@ -5,5 +5,6 @@
     <award />
     <guide-line />
     <schedule />
+    <sponsor />
   </v-layout>
 </template>
