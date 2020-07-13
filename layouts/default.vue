@@ -46,11 +46,16 @@ html {
   box-sizing: border-box;
 }
 
+.app {
+  overflow: hidden;
+}
+
 .main {
   background-image: url('/BG.svg');
   background-size: cover;
   margin-top: 50px;
   width: 100%;
+  height: 100%;
 }
 
 .Header {
