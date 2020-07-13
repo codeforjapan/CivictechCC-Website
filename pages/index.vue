@@ -6,5 +6,6 @@
     <guide-line />
     <schedule />
     <sponsor />
+    <organizer />
   </v-layout>
 </template>
