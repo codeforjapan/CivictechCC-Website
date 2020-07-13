@@ -5,6 +5,9 @@
         <FirstView class="FirstView-contain" />
       </v-container>
     </section>
+    <section>
+      <section-title en-title="Theme Sample" ja-title="テーマサンプル" />
+    </section>
     <div>
       <h1 class="title">
         CCC-Website
