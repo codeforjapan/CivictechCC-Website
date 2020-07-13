@@ -1,6 +1,6 @@
 <template>
   <v-app class="app">
-    <v-app-bar elevation="0" height="85px" color="rgba(0,0,0,0)">
+    <v-app-bar app class="Header" elevation="0" height="85px">
       <v-toolbar-title class="Title">Civictech Challenge Cup</v-toolbar-title>
       <v-spacer />
       <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
@@ -8,10 +8,8 @@
         <span class="Ently-2">８月３１日（月）まで！</span>
       </v-btn>
     </v-app-bar>
-    <v-main>
-      <v-container class="fill-height" fluid>
-        <nuxt />
-      </v-container>
+    <v-main style="padding-top: 0;" class="fill-height" fluid>
+      <nuxt />
     </v-main>
     <v-footer class="Footer" color="rgba(0,0,0,0)" height="60px">
       <a
@@ -29,6 +27,21 @@
   </v-app>
 </template>
 
+<script>
+export default {
+  data: () => ({
+    offsetTop: 0,
+  }),
+
+  methods: {
+    onScroll(e) {
+      this.offsetTop = e.target.scrollHeight
+      console.log(e.target.scrollHeight)
+    },
+  },
+}
+</script>
+
 <style lang="scss" scoped>
 html {
   font-family: 'Spartan', Arial, sans-serif;
@@ -39,6 +52,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+.Header {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .Title {
@@ -84,7 +101,7 @@ html {
 .Footer {
   font-family: Spartan, sans-serif;
   font-size: 10px;
-  font-weight: lighter;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 2;
