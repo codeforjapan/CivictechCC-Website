@@ -17,6 +17,7 @@
 
 <style lang="scss" scoped>
 .ExaminationCriteria {
+  margin-bottom: 50px;
   &-Title {
     margin-left: 0;
     margin-right: auto;

@@ -41,6 +41,7 @@
 
 <style lang="scss" scoped>
 .ThemeSample {
+  margin-bottom: 50px;
   &-Title {
     margin-left: 0;
     margin-right: auto;

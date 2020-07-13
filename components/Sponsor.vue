@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss" scoped>
 .Sponsor {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   &-Title {
     margin-left: 0;
     margin-right: auto;

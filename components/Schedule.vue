@@ -55,6 +55,7 @@ export default {
 
 <style lang="scss" scoped>
 .Schedule {
+  margin-bottom: 50px;
   &-Title {
     margin-left: 0;
     margin-right: auto;

@@ -139,6 +139,7 @@ export default {
 }
 
 .GuideLine {
+  margin-bottom: 50px;
   &-Title {
     margin-left: 0;
     margin-right: auto;
