@@ -39,6 +39,12 @@ html {
   box-sizing: border-box;
 }
 
+.app {
+  background-image: url('/BG.svg');
+  background-size: cover;
+  width: 100%;
+}
+
 .Header {
   background-color: rgba(0, 0, 0, 0) !important;
 }
