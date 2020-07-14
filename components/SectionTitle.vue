@@ -32,7 +32,7 @@ export default {
     font-style: normal;
     line-height: 1.33;
     letter-spacing: -0.8px;
-    color: #170f7b;
+    color: $indigo-1;
   }
   &-Ja {
     font-family: 'Noto Sans JP', sans-serif;
@@ -42,7 +42,7 @@ export default {
     font-style: normal;
     line-height: 2.33;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
 }
 </style>

@@ -49,7 +49,7 @@ export default {
     line-height: 1.38;
     letter-spacing: normal;
     text-align: center;
-    color: #170f7b;
+    color: $indigo-1;
     padding-top: 0;
   }
   &-Description {
@@ -60,7 +60,7 @@ export default {
     font-style: normal;
     line-height: 1.6;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
   &-Image {
     height: auto;

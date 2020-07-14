@@ -68,7 +68,7 @@ html {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  color: #170f7b;
+  color: $indigo-1;
 }
 .Ently-Button {
   .Ently-1 {
@@ -109,9 +109,9 @@ html {
   font-style: normal;
   line-height: 2;
   letter-spacing: 0.67px;
-  color: #170f7b;
+  color: $indigo-1;
   .Privacy-Policy {
-    color: #170f7b;
+    color: $indigo-1;
   }
   .Code-for-Japan {
     text-align: right;

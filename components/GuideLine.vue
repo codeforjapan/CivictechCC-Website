@@ -154,7 +154,7 @@ export default {
       font-style: normal;
       line-height: 2.5;
       letter-spacing: normal;
-      color: #170f7b !important;
+      color: $indigo-1 !important;
     }
     &-Text {
       font-family: 'Noto Sans JP', sans-serif;
@@ -164,9 +164,9 @@ export default {
       font-style: normal;
       line-height: 1.67;
       letter-spacing: normal;
-      color: #170f7b !important;
+      color: $indigo-1 !important;
       a {
-        color: #170f7b !important;
+        color: $indigo-1 !important;
       }
     }
   }

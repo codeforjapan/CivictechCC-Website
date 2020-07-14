@@ -34,7 +34,7 @@ export default {
     font-style: normal;
     line-height: 2.07;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
 }
 </style>

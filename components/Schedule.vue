@@ -68,7 +68,7 @@ export default {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
   &-List {
     &-Title {
@@ -78,7 +78,7 @@ export default {
       font-style: normal;
       line-height: 1.25;
       letter-spacing: normal;
-      color: #170f7b;
+      color: $indigo-1;
     }
     &-Content {
       font-size: 17px;
@@ -87,7 +87,7 @@ export default {
       font-style: normal;
       line-height: 1.43;
       letter-spacing: normal;
-      color: #170f7b;
+      color: $indigo-1;
       &-Small {
         font-size: 14px;
         font-weight: 400;
@@ -95,7 +95,7 @@ export default {
         font-style: normal;
         line-height: 2;
         letter-spacing: normal;
-        color: #170f7b;
+        color: $indigo-1;
       }
     }
   }
@@ -115,14 +115,14 @@ export default {
     font-stretch: normal;
     font-style: normal;
     letter-spacing: 1.4px;
-    color: #170f7b;
+    color: $indigo-1;
   }
 
   ul li::before {
     position: absolute;
     content: '';
     display: inline-block;
-    background: #170f7b;
+    background: $indigo-1;
     border-radius: 50%;
     left: 0;
     top: 26px;

@@ -30,7 +30,7 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
   ol {
     counter-reset: number;
@@ -48,7 +48,7 @@
     font-stretch: normal;
     font-style: normal;
     letter-spacing: 1.4px;
-    color: #170f7b;
+    color: $indigo-1;
   }
 
   ol li::before {
@@ -56,7 +56,7 @@
     counter-increment: number;
     content: counter(number, upper-alpha);
     display: inline-block;
-    background: #170f7b;
+    background: $indigo-1;
     color: white;
     font-family: Spartan, sans-serif;
     font-weight: 600;

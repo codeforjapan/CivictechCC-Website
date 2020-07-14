@@ -54,7 +54,7 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
 }
 </style>
