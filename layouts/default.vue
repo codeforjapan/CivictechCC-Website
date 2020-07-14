@@ -9,7 +9,7 @@
           <span class="Ently-2">8月31日（月）まで！</span>
         </v-btn>
       </v-app-bar>
-      <v-container class="fill-height" align-center>
+      <v-container align-center>
         <FirstView class="FirstView-contain" />
       </v-container>
     </section>
@@ -121,7 +121,7 @@ html {
 .FirstView {
   margin: 0;
   position: static;
-  height: 100vh;
+  height: 100%;
   text-align: center;
   background-image: url('/CCCBG.svg');
   background-size: cover;
@@ -131,9 +131,7 @@ html {
 
   &-contain {
     width: 100%;
-    margin-top: calc(-15vh + 85px);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3vh auto;
   }
 }
 </style>

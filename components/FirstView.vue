@@ -29,7 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 .Logo {
-  width: 80%;
+  width: 65%;
   height: auto;
 }
 .FirstView-Card {
