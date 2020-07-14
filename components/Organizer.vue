@@ -35,9 +35,6 @@ export default {
     line-height: 2.07;
     letter-spacing: normal;
     color: #170f7b;
-    &-mob {
-      font-size: 15px !important;
-    }
   }
 }
 

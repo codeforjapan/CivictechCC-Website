@@ -55,9 +55,6 @@
     line-height: 1.5;
     letter-spacing: normal;
     color: #170f7b;
-    &-mob {
-      font-size: 22px;
-    }
   }
 }
 
