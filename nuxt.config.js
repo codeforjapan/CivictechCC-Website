@@ -101,6 +101,7 @@ export default {
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
+    '@nuxtjs/google-analytics',
   ],
   /*
    ** Nuxt.js modules
@@ -109,8 +110,12 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Spartan&display=swap', 'NotoSansJP&&display=swap'],
+      families: ['Spartan', 'NotoSansJP'],
     },
+  },
+
+  googleAnalytics: {
+    id: 'UA-165231213-1',
   },
   /*
    ** Build configuration
