@@ -6184,13 +6184,6 @@ nuxt-svg-loader@^1.2.0:
     consola "^2.3.2"
     svg-to-vue-component "^0.3.1"
 
-nuxt-user-agent@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/nuxt-user-agent/-/nuxt-user-agent-1.2.2.tgz#696462fcbdbc32d5be2bc63976afd9eef6e9f6b7"
-  integrity sha512-Z9d+r1/PzJAvrr4rX70IWvRyI3qw3RukAGrRZPZ9WeByuCWmVKiW8G1AhdkUOyrDrVoBUC59iLqIVkop/NjSuQ==
-  dependencies:
-    woothee "^1.8.1"
-
 nuxt-webfontloader@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nuxt-webfontloader/-/nuxt-webfontloader-1.1.0.tgz#68b47ffbeaee4c41969f42f57a86946e0c36715c"

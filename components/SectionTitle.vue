@@ -1,14 +1,6 @@
 <template>
   <div class="SectionTitle">
-    <h1
-      v-if="$ua.isFromMobilephone()"
-      class="SectionTitle-En SectionTitle-En-mob"
-    >
-      {{ enTitle }}
-    </h1>
-    <h1 v-else class="SectionTitle-En">
-      {{ enTitle }}
-    </h1>
+    <h1 class="SectionTitle-En">{{ enTitle }}</h1>
     <h2 class="SectionTitle-Ja">{{ jaTitle }}</h2>
   </div>
 </template>
@@ -41,9 +33,6 @@ export default {
     line-height: 1.33;
     letter-spacing: -0.8px;
     color: #170f7b;
-    &-mob {
-      font-size: 35px !important;
-    }
   }
   &-Ja {
     font-family: 'Noto Sans JP', sans-serif;
@@ -54,6 +43,13 @@ export default {
     line-height: 2.33;
     letter-spacing: normal;
     color: #170f7b;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SectionTitle {
+    &-En {
+      font-size: 2.4rem;
+    }
   }
 }
 </style>

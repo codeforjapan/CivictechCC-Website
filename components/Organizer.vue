@@ -5,13 +5,7 @@
       en-title="Organizer"
       ja-title="運営"
     />
-    <span
-      v-if="$ua.isFromMobilephone()"
-      class="Organizer-Description Organizer-Description-mob"
-    >
-      主催：一般社団法人コード・フォー・ジャパン
-    </span>
-    <span v-else class="Organizer-Description"
+    <span class="Organizer-Description"
       >主催：一般社団法人コード・フォー・ジャパン</span
     >
   </section>
@@ -34,7 +28,7 @@ export default {
     position: absolute;
     z-index: 10;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     font-stretch: normal;
     font-style: normal;
@@ -43,6 +37,14 @@ export default {
     color: #170f7b;
     &-mob {
       font-size: 15px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Organizer {
+    &-Description {
+      font-size: 1rem;
     }
   }
 }
