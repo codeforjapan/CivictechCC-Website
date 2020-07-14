@@ -64,8 +64,6 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 30px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
     color: $indigo-1;
@@ -74,8 +72,6 @@ export default {
     &-Title {
       font-size: 20px;
       font-weight: 700;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.25;
       letter-spacing: normal;
       color: $indigo-1;
@@ -83,16 +79,12 @@ export default {
     &-Content {
       font-size: 17px;
       font-weight: 400;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.43;
       letter-spacing: normal;
       color: $indigo-1;
       &-Small {
         font-size: 14px;
         font-weight: 400;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 2;
         letter-spacing: normal;
         color: $indigo-1;
@@ -112,8 +104,6 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
     letter-spacing: 1.4px;
     color: $indigo-1;
   }

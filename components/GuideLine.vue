@@ -112,8 +112,6 @@ export default {
     display: block !important;
     font-size: 16px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1;
     letter-spacing: 2px;
     text-align: center;
@@ -124,8 +122,6 @@ export default {
     display: block !important;
     font-size: 10px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.6;
     letter-spacing: 0.75px;
     text-align: center;
@@ -150,8 +146,6 @@ export default {
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 18px;
       font-weight: 800;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 2.5;
       letter-spacing: normal;
       color: $indigo-1 !important;
@@ -160,8 +154,6 @@ export default {
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 15px;
       font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.67;
       letter-spacing: normal;
       color: $indigo-1 !important;

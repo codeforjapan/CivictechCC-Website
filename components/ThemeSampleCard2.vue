@@ -33,8 +33,6 @@ export default {
     font-family: Spartan, sans-serif;
     font-size: 12px;
     font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
@@ -44,8 +42,6 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 24px;
     font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.38;
     letter-spacing: normal;
     text-align: center;
@@ -56,8 +52,6 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 12px;
     font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.6;
     letter-spacing: normal;
     color: $indigo-1;

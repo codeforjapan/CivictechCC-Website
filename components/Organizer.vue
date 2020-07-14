@@ -30,8 +30,6 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 2.07;
     letter-spacing: normal;
     color: $indigo-1;

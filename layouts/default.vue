@@ -38,6 +38,8 @@
 html {
   font-family: 'Spartan', Arial, sans-serif;
   font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -65,8 +67,6 @@ html {
   font-family: Spartan, sans-serif;
   font-size: 14px;
   font-weight: 800;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   color: $indigo-1;
 }
@@ -75,8 +75,6 @@ html {
     display: block !important;
     font-size: 16px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1;
     letter-spacing: 2px;
     text-align: center;
@@ -87,8 +85,6 @@ html {
     display: block !important;
     font-size: 10px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.6;
     letter-spacing: 0.75px;
     text-align: center;
@@ -105,8 +101,6 @@ html {
   font-family: Spartan, sans-serif;
   font-size: 10px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2;
   letter-spacing: 0.67px;
   color: $indigo-1;
