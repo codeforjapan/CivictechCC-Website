@@ -13,7 +13,7 @@
           </v-col>
           <v-col cols="12" md="9">
             <span class="Schedule-List-Content">
-              7月13日（月）〜 8月31日（月）
+              7月17日（金）〜 8月31日（月）
             </span>
             <br />
             <span class="Schedule-List-Content-Small">
