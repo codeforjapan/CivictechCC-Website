@@ -49,8 +49,6 @@ html {
 }
 
 .app {
-  background-image: url('/BG.svg');
-  background-size: cover;
   width: 100%;
 }
 
