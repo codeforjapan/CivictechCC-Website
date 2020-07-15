@@ -2,7 +2,7 @@
   <section class="GuideLine">
     <section-title
       class="GuideLine-Title"
-      en-title="Guide Line"
+      en-title="Guidelines"
       ja-title="募集要件"
     />
     <v-card width="100%" color="#F5F5F2" class="GuideLine-Card" elevation="0">

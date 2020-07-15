@@ -4,7 +4,7 @@
       <v-col cols="12" md="6">
         <section-title
           class="ThemeSample-Title"
-          en-title="Theme Sample"
+          en-title="Theme Samples"
           ja-title="テーマサンプル"
         />
       </v-col>

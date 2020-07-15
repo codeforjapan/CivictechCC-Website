@@ -1,6 +1,6 @@
 <template>
   <section class="Award">
-    <section-title class="Award-Title" en-title="Award" ja-title="賞" />
+    <section-title class="Award-Title" en-title="Awards" ja-title="賞" />
     <span class="Award-Description">
       協賛各社からの賞を随時公開予定です
     </span>

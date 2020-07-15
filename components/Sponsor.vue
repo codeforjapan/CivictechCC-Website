@@ -1,6 +1,6 @@
 <template>
   <section class="Sponsor">
-    <section-title class="Sponsor-Title" en-title="Sponsor" ja-title="協賛" />
+    <section-title class="Sponsor-Title" en-title="Sponsors" ja-title="協賛" />
     <coming-soon class="Sponsor-ComingSoon" />
   </section>
 </template>
