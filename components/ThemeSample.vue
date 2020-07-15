@@ -57,4 +57,12 @@
     color: #170f7b;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .ThemeSample {
+    &-Description {
+      font-size: 20px;
+    }
+  }
+}
 </style>

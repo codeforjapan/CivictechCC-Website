@@ -45,4 +45,11 @@ export default {
     color: #170f7b;
   }
 }
+@media screen and (max-width: 600px) {
+  .SectionTitle {
+    &-En {
+      font-size: 2.4rem;
+    }
+  }
+}
 </style>
