@@ -2,25 +2,35 @@
   <v-card class="ThemeSampleCard" height="100%" color="#f5f5f2" elevation="0">
     <v-layout justify-center align-center column>
       <v-card-subtitle class="ThemeSampleCard-SubTitle">
-        [Sample 4]
+        {{ subtitle }}
       </v-card-subtitle>
       <v-card-title class="ThemeSampleCard-Title">
-        忘れても良い社会にしよう
+        {{ title }}
       </v-card-title>
       <v-card-text class="ThemeSampleCard-Description">
-        発達障害、認知症の方など含め、覚えておくのが苦手な人は沢山いる。疲れていたら誰しも集中力は低下する。物忘れをしても、忘れ物をしても、困らない仕組み・ツールで誰かを(あるいは自分を)救ってみませんか？
+        {{ description }}
       </v-card-text>
-      <Mind class="ThemeSampleCard-Image" />
+      <slot name="image" />
     </v-layout>
   </v-card>
 </template>
 
 <script>
-import Mind from '@/static/Mind.svg'
 export default {
-  name: 'ThemeSampleCard4',
-  components: {
-    Mind,
+  name: 'ThemeSampleCard',
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    subtitle: {
+      type: String,
+      required: true,
+    },
+    description: {
+      type: String,
+      required: true,
+    },
   },
 }
 </script>
@@ -55,11 +65,6 @@ export default {
     line-height: 1.6;
     letter-spacing: normal;
     color: $indigo-1;
-  }
-  &-Image {
-    height: auto;
-    width: 100%;
-    padding: 30px;
   }
 }
 </style>
