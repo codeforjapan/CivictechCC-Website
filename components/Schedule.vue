@@ -15,7 +15,6 @@
             <span class="Schedule-List-Content">
               7月17日（金）〜 8月31日（月）
             </span>
-            <br />
             <span class="Schedule-List-Content-Small">
               ※
               但し、7月31日（金）までにエントリーするとすべてのイベントに参加可能
@@ -77,12 +76,14 @@ export default {
       color: $indigo-1;
     }
     &-Content {
+      display: block;
       font-size: 17px;
       font-weight: 400;
       line-height: 1.43;
       letter-spacing: normal;
       color: $indigo-1;
       &-Small {
+        display: block;
         font-size: 14px;
         font-weight: 400;
         line-height: 2;

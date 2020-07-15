@@ -13,7 +13,6 @@
           <span>
             テーマは何でもOK！
           </span>
-          <br />
           <span>
             自分が興味のあるテーマを設定しよう！
           </span>
@@ -115,6 +114,10 @@ export default {
 
     @media screen and (max-width: 600px) {
       font-size: 20px;
+    }
+
+    > span {
+      display: block;
     }
   }
 }
