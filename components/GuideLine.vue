@@ -155,8 +155,8 @@ export default {
         margin-bottom: 0;
       }
 
-      > ul {
-        margin-bottom: 2em;
+      > ul + p {
+        margin-top: 2em;
       }
     }
   }
