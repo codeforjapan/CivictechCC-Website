@@ -111,7 +111,7 @@ export default {
   .Ently-1 {
     display: block !important;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1;
@@ -123,7 +123,7 @@ export default {
   .Ently-2 {
     display: block !important;
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;

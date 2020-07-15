@@ -108,7 +108,7 @@ export default {
   ul li {
     position: relative;
     line-height: 25px;
-    padding: 0.5em 0.5em 0.5em 70px;
+    padding: 0.5em 0.5em 0.5em 20px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -125,9 +125,9 @@ export default {
     background: #170f7b;
     border-radius: 50%;
     left: 0;
-    top: 26px;
-    width: 16px;
-    height: 16px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
     line-height: 16px;
     text-align: center;
   }
