@@ -112,6 +112,10 @@ export default {
     line-height: 1.5;
     letter-spacing: normal;
     color: $indigo-1;
+
+    @media screen and (max-width: 600px) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -119,13 +123,5 @@ export default {
   height: auto;
   width: 100%;
   padding: 30px;
-}
-
-@media screen and (max-width: 600px) {
-  .ThemeSample {
-    &-Description {
-      font-size: 20px;
-    }
-  }
 }
 </style>
