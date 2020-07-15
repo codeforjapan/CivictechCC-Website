@@ -1,5 +1,12 @@
 <template>
-  <v-btn class="ButtonEntry" height="55px" rounded color="#170f7b">
+  <v-btn
+    class="ButtonEntry"
+    height="55px"
+    rounded
+    color="#170f7b"
+    href="https://forms.gle/NttQ2oR4FHusbWvm9"
+    target="_blank"
+  >
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
       <div class="ButtonEntry-Line1">エントリーする</div>
       <div class="ButtonEntry-Line2">8月31日（月）まで！</div>
