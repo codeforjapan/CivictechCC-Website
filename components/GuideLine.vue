@@ -64,7 +64,9 @@
         応募作品について
       </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
-        応募作品は下記のいずれか又は複数の組み合わせとします。<br />
+        <p>
+          応募作品は下記のいずれか又は複数の組み合わせとします。
+        </p>
         <ul>
           <li>
             Windows・macOS上で動作するソフトウェア
@@ -79,9 +81,12 @@
             その他、IoTデバイス等を利用した作品（※）
           </li>
         </ul>
-        <br />
-        ※ IoTデバイス等を利用する場合は事前にお知らせください。<br />
-        使用するプログラミング言語やAPI等は問いません。<br />
+        <p>
+          ※ IoTデバイス等を利用する場合は事前にお知らせください。
+        </p>
+        <p>
+          使用するプログラミング言語やAPI等は問いません。
+        </p>
       </v-card-text>
       <v-divider />
       <v-card-subtitle class="GuideLine-Card-Title">
@@ -133,6 +138,14 @@ export default {
       color: $indigo-1 !important;
       a {
         color: $indigo-1 !important;
+      }
+
+      > p {
+        margin-bottom: 0;
+      }
+
+      > ul {
+        margin-bottom: 2em;
       }
     }
   }
