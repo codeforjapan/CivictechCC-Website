@@ -41,4 +41,11 @@ export default {
     color: $indigo-1;
   }
 }
+@media screen and (max-width: 600px) {
+  .SectionTitle {
+    &-En {
+      font-size: 2.4rem;
+    }
+  }
+}
 </style>
