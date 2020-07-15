@@ -91,53 +91,23 @@
         他のプログラミングコンテスト等との併願を認めますが、併願先で多重応募に関する規定がある場合はそちらに従ってください。
       </v-card-text>
       <v-card-actions class="align-center justify-center">
-        <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
-          <div class="Ently-1">エントリーする</div>
-          <span class="Ently-2">8月31日（月）まで！</span>
-        </v-btn>
+        <ButtonEntry inner-padding="20px 55px" />
       </v-card-actions>
     </v-card>
   </section>
 </template>
 
 <script>
+import ButtonEntry from '@/components/ButtonEntry.vue'
 export default {
   name: 'GuideLine',
+  components: {
+    ButtonEntry,
+  },
 }
 </script>
 
 <style lang="scss" scoped>
-.Ently-Button {
-  .Ently-1 {
-    display: block !important;
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: -4px;
-  }
-
-  .Ently-2 {
-    display: block !important;
-    font-size: 10px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: 0.75px;
-    text-align: center;
-    margin-top: 6px;
-  }
-
-  ::v-deep .v-btn__content {
-    display: block;
-    padding: 20px 55px;
-  }
-}
-
 .GuideLine {
   margin-bottom: 50px;
   &-Title {
@@ -150,23 +120,19 @@ export default {
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 18px;
       font-weight: 800;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 2.5;
       letter-spacing: normal;
-      color: #170f7b !important;
+      color: $indigo-1 !important;
     }
     &-Text {
       font-family: 'Noto Sans JP', sans-serif;
       font-size: 15px;
       font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.67;
       letter-spacing: normal;
-      color: #170f7b !important;
+      color: $indigo-1 !important;
       a {
-        color: #170f7b !important;
+        color: $indigo-1 !important;
       }
     }
   }

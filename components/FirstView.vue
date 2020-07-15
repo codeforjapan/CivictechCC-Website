@@ -43,11 +43,9 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 35px;
     font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.51;
     letter-spacing: 2.33px;
-    color: #170f7b;
+    color: $indigo-1;
 
     .Marker {
       background: linear-gradient(transparent 60%, #ffd500 30%);
@@ -58,11 +56,9 @@ export default {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.94;
     letter-spacing: 1px;
-    color: #170f7b !important;
+    color: $indigo-1 !important;
     margin-top: 20px;
   }
 }
