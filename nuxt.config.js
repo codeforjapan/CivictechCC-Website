@@ -113,7 +113,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Spartan', 'Noto Sans JP'],
+      families: ['Spartan:400,500,600,700,800,900', 'Noto Sans JP'],
     },
   },
 
