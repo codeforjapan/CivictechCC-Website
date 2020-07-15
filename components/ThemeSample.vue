@@ -119,6 +119,7 @@ export default {
   height: auto;
   width: 100%;
   padding: 30px;
+}
 
 @media screen and (max-width: 600px) {
   .ThemeSample {
