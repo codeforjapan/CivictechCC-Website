@@ -4,10 +4,7 @@
       <v-app-bar class="Header" elevation="0" height="85px">
         <v-toolbar-title class="Title">Civictech Challenge Cup</v-toolbar-title>
         <v-spacer />
-        <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
-          <div class="Ently-1">エントリーする</div>
-          <span class="Ently-2">8月31日（月）まで！</span>
-        </v-btn>
+        <ButtonEntry inner-padding="10px 20px" />
       </v-app-bar>
       <v-container align-center>
         <FirstView class="FirstView-contain" />
@@ -33,6 +30,14 @@
     </v-footer>
   </v-app>
 </template>
+
+<script>
+import ButtonEntry from '@/components/ButtonEntry.vue'
+
+export default {
+  components: { ButtonEntry },
+}
+</script>
 
 <style lang="scss" scoped>
 html {
@@ -67,32 +72,6 @@ html {
   font-weight: 800;
   line-height: normal;
   color: $indigo-1;
-}
-.Ently-Button {
-  .Ently-1 {
-    display: block !important;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: -4px;
-  }
-
-  .Ently-2 {
-    display: block !important;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.75px;
-    text-align: center;
-    margin-top: 6px;
-  }
-
-  ::v-deep .v-btn__content {
-    display: block;
-    padding: 10px 20px;
-  }
 }
 
 .Footer {
