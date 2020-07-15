@@ -93,7 +93,18 @@
         備考
       </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
-        他のプログラミングコンテスト等との併願を認めますが、併願先で多重応募に関する規定がある場合はそちらに従ってください。
+        <ul>
+          <li>
+            他のプログラミングコンテスト等との併願を認めますが、併願先で多重応募に関する規定がある場合はそちらに従ってください。
+          </li>
+          <li>
+            作品の応募にあたり、他者の知的財産権を侵害しないように十分ご注意ください。また、応募者と第三者との間でトラブルが発生した場合は、当事者間で解決を図るものとし、Civictech
+            Challenge Cup U-22 運営及びCode for Japanは一切関与いたしません。
+          </li>
+          <li>
+            本イベントでは、Slackを活用して各種連絡・情報共有を行う予定です。
+          </li>
+        </ul>
       </v-card-text>
       <v-card-actions class="align-center justify-center">
         <ButtonEntry inner-padding="20px 55px" />
