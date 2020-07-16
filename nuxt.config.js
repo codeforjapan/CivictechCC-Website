@@ -1,4 +1,3 @@
-// @todo リリース時に ccc2020.code4japan.org に変える
 const baseUrl = 'ccc2020.code4japan.org'
 
 export default {
