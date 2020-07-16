@@ -73,38 +73,6 @@ html {
   line-height: normal;
   color: #170f7b;
 }
-.Ently-Button {
-  .Ently-1 {
-    display: block !important;
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: -4px;
-  }
-
-  .Ently-2 {
-    display: block !important;
-    font-size: 10px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: 0.75px;
-    text-align: center;
-    margin-top: 6px;
-  }
-
-  ::v-deep .v-btn__content {
-    display: block;
-    padding: 10px 20px;
-  }
-
-  color: $indigo-1;
-}
 
 .Footer {
   font-family: Spartan, sans-serif;
