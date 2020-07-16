@@ -46,7 +46,7 @@ export default {
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #52b86a !important;
+    color: #526db8 !important;
   }
   &-Title {
     font-family: $font-ja;
