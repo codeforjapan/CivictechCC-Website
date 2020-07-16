@@ -2,7 +2,11 @@
   <v-app class="app">
     <section class="FirstView">
       <v-app-bar class="Header" elevation="0" height="85px">
-        <v-toolbar-title class="Title">Civictech Challenge Cup</v-toolbar-title>
+        <v-toolbar-title class="Title">
+          <span class="Title-Lines">Civictech </span>
+          <span class="Title-Lines">Challenge </span>
+          <span class="Title-Lines">Cup</span>
+        </v-toolbar-title>
         <v-spacer />
         <ButtonEntry inner-padding="10px 20px" />
       </v-app-bar>
@@ -103,6 +107,15 @@ html {
   &-contain {
     width: 100%;
     margin: 3vh auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Title {
+    text-align: left;
+    .Title-Lines {
+      display: block;
+    }
   }
 }
 </style>
