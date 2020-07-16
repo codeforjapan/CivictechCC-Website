@@ -9672,11 +9672,6 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-woothee@^1.8.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/woothee/-/woothee-1.11.1.tgz#ac0a831345d1ca068a27b56f0f298b844769531e"
-  integrity sha512-KdArM3MsNa5tlSBSL29w9ouy9MXZoFPeUdPVnL4QZH3iyV8HsqnwbWw2YLiXEx2wAh0bM55dnl0+qDE6KHBlhQ==
-
 word-wrap@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
