@@ -4,7 +4,7 @@
       <v-col cols="12" md="6">
         <section-title
           class="ThemeSample-Title"
-          en-title="Theme Sample"
+          en-title="Theme Samples"
           ja-title="テーマサンプル"
         />
       </v-col>
@@ -13,7 +13,6 @@
           <span>
             テーマは何でもOK！
           </span>
-          <br />
           <span>
             自分が興味のあるテーマを設定しよう！
           </span>
@@ -115,6 +114,10 @@ export default {
 
     @media screen and (max-width: 600px) {
       font-size: 20px;
+    }
+
+    > span {
+      display: block;
     }
   }
 }

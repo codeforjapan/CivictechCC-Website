@@ -2,7 +2,7 @@
   <section class="GuideLine">
     <section-title
       class="GuideLine-Title"
-      en-title="Guide Line"
+      en-title="Guidelines"
       ja-title="募集要件"
     />
     <v-card width="100%" color="#F5F5F2" class="GuideLine-Card" elevation="0">
@@ -64,7 +64,9 @@
         応募作品について
       </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
-        応募作品は下記のいずれか又は複数の組み合わせとします。<br />
+        <p>
+          応募作品は下記のいずれか又は複数の組み合わせとします。
+        </p>
         <ul>
           <li>
             Windows・macOS上で動作するソフトウェア
@@ -79,16 +81,30 @@
             その他、IoTデバイス等を利用した作品（※）
           </li>
         </ul>
-        <br />
-        ※ IoTデバイス等を利用する場合は事前にお知らせください。<br />
-        使用するプログラミング言語やAPI等は問いません。<br />
+        <p>
+          ※ IoTデバイス等を利用する場合は事前にお知らせください。
+        </p>
+        <p>
+          使用するプログラミング言語やAPI等は問いません。
+        </p>
       </v-card-text>
       <v-divider />
       <v-card-subtitle class="GuideLine-Card-Title">
         備考
       </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
-        他のプログラミングコンテスト等との併願を認めますが、併願先で多重応募に関する規定がある場合はそちらに従ってください。
+        <ul>
+          <li>
+            他のプログラミングコンテスト等との併願を認めますが、併願先で多重応募に関する規定がある場合はそちらに従ってください。
+          </li>
+          <li>
+            作品の応募にあたり、他者の知的財産権を侵害しないように十分ご注意ください。また、応募者と第三者との間でトラブルが発生した場合は、当事者間で解決を図るものとし、Civictech
+            Challenge Cup U-22 運営及びCode for Japanは一切関与いたしません。
+          </li>
+          <li>
+            本イベントでは、Slackを活用して各種連絡・情報共有を行う予定です。
+          </li>
+        </ul>
       </v-card-text>
       <v-card-actions class="align-center justify-center">
         <ButtonEntry inner-padding="20px 55px" />
@@ -133,6 +149,14 @@ export default {
       color: $indigo-1 !important;
       a {
         color: $indigo-1 !important;
+      }
+
+      > p {
+        margin-bottom: 0;
+      }
+
+      > ul + p {
+        margin-top: 2em;
       }
     }
   }
