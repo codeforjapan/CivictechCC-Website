@@ -6,6 +6,7 @@
     color="#170f7b"
     href="https://forms.gle/NttQ2oR4FHusbWvm9"
     target="_blank"
+    rel="noopener"
   >
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
       <div class="ButtonEntry-Line1">エントリーする</div>
