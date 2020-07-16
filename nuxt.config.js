@@ -31,6 +31,11 @@ export default {
           'CodeforJapan, Civictech, Award, アワード, 審査, 協賛, コンテスト, Civictech Challenge Cup',
       },
       {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
         hid: 'author',
         name: 'author',
         content: 'Code for Japan',
