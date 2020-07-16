@@ -105,7 +105,7 @@ export default {
     margin-right: auto;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;

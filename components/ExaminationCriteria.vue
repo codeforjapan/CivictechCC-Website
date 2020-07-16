@@ -23,7 +23,7 @@
     margin-right: auto;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
@@ -40,7 +40,7 @@
     position: relative;
     line-height: 50px;
     padding: 0.5em 0.5em 0.5em 70px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 20px;
     font-weight: 800;
     letter-spacing: 1.4px;
@@ -54,7 +54,7 @@
     display: inline-block;
     background: $indigo-1;
     color: white;
-    font-family: Spartan, sans-serif;
+    font-family: $font-en;
     font-weight: 600;
     font-size: 15px;
     border-radius: 50%;

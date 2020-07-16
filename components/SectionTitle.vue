@@ -25,7 +25,7 @@ export default {
 .SectionTitle {
   text-align: left;
   &-En {
-    font-family: Spartan, sans-serif;
+    font-family: $font-en;
     font-size: 55px;
     font-weight: 900;
     line-height: 1.33;
@@ -33,7 +33,7 @@ export default {
     color: $indigo-1;
   }
   &-Ja {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 20px;
     font-weight: 700;
     line-height: 2.33;

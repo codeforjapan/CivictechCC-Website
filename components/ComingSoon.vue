@@ -4,7 +4,7 @@
 
 <style lang="scss" scoped>
 .ComingSoon {
-  font-family: Spartan, sans-serif;
+  font-family: $font-en;
   font-size: 80px;
   font-weight: bold;
   line-height: 1;

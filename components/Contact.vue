@@ -19,7 +19,7 @@
   margin-left: auto;
 
   &-Label {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.93px;
