@@ -25,7 +25,6 @@
         href="https://www.code4japan.org/privacy-policy"
       >
         Privacy Policy
-        <v-icon color="#170f7b" size="10px">mdi-open-in-new</v-icon>
       </a>
       <v-spacer />
       <span class="Code-for-Japan">
@@ -81,7 +80,7 @@ html {
 .Footer {
   font-family: $font-en;
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 2;
   letter-spacing: 0.67px;
   color: $indigo-1;

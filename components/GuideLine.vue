@@ -28,12 +28,10 @@
             Code for Japan の
             <a href="https://github.com/codeforjapan/codeofconduct">
               Code of Conduct
-              <v-icon color="#170f7b" size="10px">mdi-open-in-new</v-icon>
             </a>
             と
             <a href="https://www.code4japan.org/privacy-policy">
               プライバシーポリシー
-              <v-icon color="#170f7b" size="10px">mdi-open-in-new</v-icon>
             </a>
             に同意いただける方
           </li>
@@ -135,7 +133,7 @@ export default {
     &-Title {
       font-family: $font-ja;
       font-size: 18px;
-      font-weight: 800;
+      font-weight: 900;
       line-height: 2.5;
       letter-spacing: normal;
       color: $indigo-1 !important;
@@ -143,7 +141,7 @@ export default {
     &-Text {
       font-family: $font-ja;
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 500;
       line-height: 1.67;
       letter-spacing: normal;
       color: $indigo-1 !important;

@@ -85,28 +85,29 @@ export default {
       {
         hid: 'fb:app_id',
         name: 'fb:app_id',
-        content: `207490557254496`,
+        content: '207490557254496',
       },
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: `@codeforJP`,
+        content: '@codeforJP',
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: `@codeforJP`,
+        content: '@codeforJP',
       },
       {
         hid: 'og:image:width',
         name: 'og:image:width',
-        content: `1200`,
+        content: '1200',
       },
       {
         hid: 'og:image:height',
         name: 'og:image:height',
-        content: `630`,
+        content: '630',
       },
+      { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -141,10 +142,11 @@ export default {
   modules: ['nuxt-webfontloader', 'nuxt-svg-loader'],
 
   webfontloader: {
-    google: {
-      families: [
-        'Spartan:400,500,600,700,800,900',
-        'Noto+Sans+JP:400,600,700,800,900',
+    custom: {
+      families: ['Spartan:600,800', 'Noto+Sans+JP:500,700,900'],
+      urls: [
+        'https://fonts.googleapis.com/css2?family=Spartan:wght@600;800&display=swap',
+        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap',
       ],
     },
   },
@@ -161,5 +163,10 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
+    defaultAssets: false,
+  },
+
+  render: {
+    injectScripts: false,
   },
 }

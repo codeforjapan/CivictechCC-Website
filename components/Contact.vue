@@ -21,7 +21,7 @@
   &-Label {
     font-family: $font-ja;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.93px;
   }
 }

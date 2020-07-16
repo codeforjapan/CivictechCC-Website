@@ -78,14 +78,14 @@ export default {
     &-Content {
       display: block;
       font-size: 17px;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 1.43;
       letter-spacing: normal;
       color: $indigo-1;
       &-Small {
         display: block;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 2;
         letter-spacing: normal;
         color: $indigo-1;
@@ -104,7 +104,7 @@ export default {
     padding: 0.5em 0.5em 0.5em 20px;
     font-family: $font-ja;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 1.4px;
     color: $indigo-1;
   }

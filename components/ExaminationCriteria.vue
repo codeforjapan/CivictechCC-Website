@@ -42,7 +42,7 @@
     padding: 0.5em 0.5em 0.5em 70px;
     font-family: $font-ja;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 1.4px;
     color: $indigo-1;
   }

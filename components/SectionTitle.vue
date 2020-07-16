@@ -27,7 +27,7 @@ export default {
   &-En {
     font-family: $font-en;
     font-size: 55px;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1.33;
     letter-spacing: -0.8px;
     color: $indigo-1;
