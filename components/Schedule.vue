@@ -60,7 +60,7 @@ export default {
     margin-right: auto;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
@@ -102,7 +102,7 @@ export default {
     position: relative;
     line-height: 25px;
     padding: 0.5em 0.5em 0.5em 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 20px;
     font-weight: 800;
     letter-spacing: 1.4px;

@@ -71,7 +71,7 @@ html {
 }
 
 .Title {
-  font-family: Spartan, sans-serif;
+  font-family: $font-en;
   font-size: 14px;
   font-weight: 800;
   line-height: normal;
@@ -79,7 +79,7 @@ html {
 }
 
 .Footer {
-  font-family: Spartan, sans-serif;
+  font-family: $font-en;
   font-size: 10px;
   font-weight: 500;
   line-height: 2;

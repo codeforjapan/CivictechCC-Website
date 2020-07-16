@@ -133,7 +133,7 @@ export default {
   &-Card {
     padding: 15px;
     &-Title {
-      font-family: 'Noto Sans JP', sans-serif;
+      font-family: $font-ja;
       font-size: 18px;
       font-weight: 800;
       line-height: 2.5;
@@ -141,7 +141,7 @@ export default {
       color: $indigo-1 !important;
     }
     &-Text {
-      font-family: 'Noto Sans JP', sans-serif;
+      font-family: $font-ja;
       font-size: 15px;
       font-weight: 600;
       line-height: 1.67;

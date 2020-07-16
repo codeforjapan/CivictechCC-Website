@@ -40,7 +40,7 @@ export default {
   padding: 5px;
   align-items: center;
   &-SubTitle {
-    font-family: Spartan, sans-serif;
+    font-family: $font-en;
     font-size: 12px;
     font-weight: 800;
     line-height: normal;
@@ -49,7 +49,7 @@ export default {
     color: #52b86a !important;
   }
   &-Title {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 24px;
     font-weight: 900;
     line-height: 1.38;
@@ -59,7 +59,7 @@ export default {
     padding-top: 0;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 12px;
     font-weight: normal;
     line-height: 1.6;

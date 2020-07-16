@@ -24,7 +24,7 @@ export default {
   &-Description {
     position: absolute;
     z-index: 10;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 26px;
     font-weight: 700;
     line-height: 2.07;
