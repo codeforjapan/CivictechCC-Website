@@ -23,14 +23,12 @@
     margin-right: auto;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 30px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
   ol {
     counter-reset: number;
@@ -42,13 +40,11 @@
     position: relative;
     line-height: 50px;
     padding: 0.5em 0.5em 0.5em 70px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 20px;
     font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
     letter-spacing: 1.4px;
-    color: #170f7b;
+    color: $indigo-1;
   }
 
   ol li::before {
@@ -56,9 +52,9 @@
     counter-increment: number;
     content: counter(number, upper-alpha);
     display: inline-block;
-    background: #170f7b;
+    background: $indigo-1;
     color: white;
-    font-family: Spartan, sans-serif;
+    font-family: $font-en;
     font-weight: 600;
     font-size: 15px;
     border-radius: 50%;

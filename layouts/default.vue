@@ -2,12 +2,13 @@
   <v-app class="app">
     <section class="FirstView">
       <v-app-bar class="Header" elevation="0" height="85px">
-        <v-toolbar-title class="Title">Civictech Challenge Cup</v-toolbar-title>
+        <v-toolbar-title class="Title">
+          <span class="Title-Lines">Civictech </span>
+          <span class="Title-Lines">Challenge </span>
+          <span class="Title-Lines">Cup</span>
+        </v-toolbar-title>
         <v-spacer />
-        <v-btn class="Ently-Button" height="55px" rounded color="#170f7b" dark>
-          <div class="Ently-1">エントリーする</div>
-          <span class="Ently-2">8月31日（月）まで！</span>
-        </v-btn>
+        <ButtonEntry inner-padding="10px 20px" />
       </v-app-bar>
       <v-container align-center>
         <FirstView class="FirstView-contain" />
@@ -34,10 +35,20 @@
   </v-app>
 </template>
 
+<script>
+import ButtonEntry from '@/components/ButtonEntry.vue'
+
+export default {
+  components: { ButtonEntry },
+}
+</script>
+
 <style lang="scss" scoped>
 html {
   font-family: 'Spartan', Arial, sans-serif;
   font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -47,8 +58,6 @@ html {
 }
 
 .app {
-  background-image: url('/BG.svg');
-  background-size: cover;
   width: 100%;
 }
 
@@ -62,56 +71,22 @@ html {
 }
 
 .Title {
-  font-family: Spartan, sans-serif;
+  font-family: $font-en;
   font-size: 14px;
   font-weight: 800;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   color: #170f7b;
 }
-.Ently-Button {
-  .Ently-1 {
-    display: block !important;
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: -4px;
-  }
-
-  .Ently-2 {
-    display: block !important;
-    font-size: 10px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: 0.75px;
-    text-align: center;
-    margin-top: 6px;
-  }
-
-  ::v-deep .v-btn__content {
-    display: block;
-    padding: 10px 20px;
-  }
-}
 
 .Footer {
-  font-family: Spartan, sans-serif;
+  font-family: $font-en;
   font-size: 10px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2;
   letter-spacing: 0.67px;
-  color: #170f7b;
+  color: $indigo-1;
   .Privacy-Policy {
-    color: #170f7b;
+    color: $indigo-1;
   }
   .Code-for-Japan {
     text-align: right;
@@ -132,6 +107,15 @@ html {
   &-contain {
     width: 100%;
     margin: 3vh auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Title {
+    text-align: left;
+    .Title-Lines {
+      display: block;
+    }
   }
 }
 </style>

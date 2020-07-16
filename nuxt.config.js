@@ -1,3 +1,6 @@
+// @todo リリース時に ccc2020.code4japan.org に変える
+const baseUrl = 'civictechcc.netlify.app'
+
 export default {
   /*
    ** Nuxt rendering mode
@@ -45,7 +48,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `https://ccc-develop.netlify.app/`,
+        content: `https://${baseUrl}/`,
       },
       {
         hid: 'og:title',
@@ -73,12 +76,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://ccc-develop.netlify.app/ogp.png',
+        content: `https://${baseUrl}/ogp.png`,
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://ccc-develop.netlify.app/ogp.png',
+        content: `https://${baseUrl}/ogp.png`,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -115,7 +118,10 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Spartan', 'NotoSansJP'],
+      families: [
+        'Spartan:400,500,600,700,800,900',
+        'Noto+Sans+JP:400,600,700,800,900',
+      ],
     },
   },
 
@@ -127,4 +133,9 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+
+  vuetify: {
+    customVariables: ['~/assets/variables.scss'],
+    treeShake: true,
+  },
 }

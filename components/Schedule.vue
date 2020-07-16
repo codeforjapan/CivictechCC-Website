@@ -13,9 +13,8 @@
           </v-col>
           <v-col cols="12" md="9">
             <span class="Schedule-List-Content">
-              7月13日（月）〜 8月31日（月）
+              7月17日（金）〜 8月31日（月）
             </span>
-            <br />
             <span class="Schedule-List-Content-Small">
               ※
               但し、7月31日（金）までにエントリーするとすべてのイベントに参加可能
@@ -61,41 +60,35 @@ export default {
     margin-right: auto;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 30px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
   &-List {
     &-Title {
       font-size: 20px;
       font-weight: 700;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.25;
       letter-spacing: normal;
-      color: #170f7b;
+      color: $indigo-1;
     }
     &-Content {
+      display: block;
       font-size: 17px;
       font-weight: 400;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.43;
       letter-spacing: normal;
-      color: #170f7b;
+      color: $indigo-1;
       &-Small {
+        display: block;
         font-size: 14px;
         font-weight: 400;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 2;
         letter-spacing: normal;
-        color: #170f7b;
+        color: $indigo-1;
       }
     }
   }
@@ -108,26 +101,24 @@ export default {
   ul li {
     position: relative;
     line-height: 25px;
-    padding: 0.5em 0.5em 0.5em 70px;
-    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0.5em 0.5em 0.5em 20px;
+    font-family: $font-ja;
     font-size: 20px;
     font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
     letter-spacing: 1.4px;
-    color: #170f7b;
+    color: $indigo-1;
   }
 
   ul li::before {
     position: absolute;
     content: '';
     display: inline-block;
-    background: #170f7b;
+    background: $indigo-1;
     border-radius: 50%;
     left: 0;
-    top: 26px;
-    width: 16px;
-    height: 16px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
     line-height: 16px;
     text-align: center;
   }

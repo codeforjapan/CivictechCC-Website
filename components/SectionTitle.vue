@@ -25,24 +25,27 @@ export default {
 .SectionTitle {
   text-align: left;
   &-En {
-    font-family: Spartan, sans-serif;
+    font-family: $font-en;
     font-size: 55px;
     font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.33;
     letter-spacing: -0.8px;
-    color: #170f7b;
+    color: $indigo-1;
   }
   &-Ja {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 20px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 2.33;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SectionTitle {
+    &-En {
+      font-size: 2.4rem;
+    }
   }
 }
 </style>

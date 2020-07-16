@@ -2,25 +2,35 @@
   <v-card class="ThemeSampleCard" height="100%" color="#f5f5f2" elevation="0">
     <v-layout justify-center align-center column>
       <v-card-subtitle class="ThemeSampleCard-SubTitle">
-        [Sample 1]
+        {{ subtitle }}
       </v-card-subtitle>
       <v-card-title class="ThemeSampleCard-Title">
-        登校せずに、登校しよう
+        {{ title }}
       </v-card-title>
       <v-card-text class="ThemeSampleCard-Description">
-        朝の満員電車は嫌だけど、オンライン授業は切り替えが難しい。そんな悩みを、技術で解決してみませんか？
+        {{ description }}
       </v-card-text>
-      <School class="ThemeSampleCard-Image" />
+      <slot name="image" />
     </v-layout>
   </v-card>
 </template>
 
 <script>
-import School from '@/static/School.svg'
 export default {
-  name: 'ThemeSampleCard1',
-  components: {
-    School,
+  name: 'ThemeSampleCard',
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    subtitle: {
+      type: String,
+      required: true,
+    },
+    description: {
+      type: String,
+      required: true,
+    },
   },
 }
 </script>
@@ -30,42 +40,31 @@ export default {
   padding: 5px;
   align-items: center;
   &-SubTitle {
-    font-family: Spartan, sans-serif;
+    font-family: $font-en;
     font-size: 12px;
     font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
     color: #52b86a !important;
   }
   &-Title {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 24px;
     font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.38;
     letter-spacing: normal;
     text-align: center;
-    color: #170f7b;
+    color: $indigo-1;
     padding-top: 0;
   }
   &-Description {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 12px;
     font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.6;
     letter-spacing: normal;
-    color: #170f7b;
-  }
-  &-Image {
-    height: auto;
-    width: 100%;
-    padding: 30px;
+    color: $indigo-1;
   }
 }
 </style>

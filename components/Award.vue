@@ -1,6 +1,6 @@
 <template>
   <section class="Award">
-    <section-title class="Award-Title" en-title="Award" ja-title="賞" />
+    <section-title class="Award-Title" en-title="Awards" ja-title="賞" />
     <span class="Award-Description">
       協賛各社からの賞を随時公開予定です
     </span>
@@ -24,14 +24,12 @@ export default {
   &-Description {
     position: absolute;
     z-index: 10;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: $font-ja;
     font-size: 26px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 2.07;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
   }
   &-ComingSoon {
     left: 0;

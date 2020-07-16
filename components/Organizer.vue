@@ -3,11 +3,11 @@
     <section-title
       class="Organizer-Title"
       en-title="Organizer"
-      ja-title="主催など"
+      ja-title="運営"
     />
-    <span class="Organizer-Description">
-      主催：一般社団法人コード・フォー・ジャパン
-    </span>
+    <span class="Organizer-Description"
+      >主催：一般社団法人コード・フォー・ジャパン</span
+    >
   </section>
 </template>
 
@@ -27,14 +27,20 @@ export default {
   &-Description {
     position: absolute;
     z-index: 10;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    font-family: $font-ja;
+    font-size: 25px;
     font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 2.07;
     letter-spacing: normal;
-    color: #170f7b;
+    color: $indigo-1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Organizer {
+    &-Description {
+      font-size: 1rem;
+    }
   }
 }
 </style>
