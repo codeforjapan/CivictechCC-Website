@@ -166,8 +166,4 @@ export default {
     treeShake: true,
     defaultAssets: false,
   },
-
-  render: {
-    injectScripts: false,
-  },
 }
