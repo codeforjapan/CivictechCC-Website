@@ -141,10 +141,11 @@ export default {
   modules: ['nuxt-webfontloader', 'nuxt-svg-loader'],
 
   webfontloader: {
-    google: {
-      families: [
-        'Spartan:400,500,600,700,800,900',
-        'Noto+Sans+JP:400,600,700,800,900',
+    custom: {
+      families: ['Spartan:600,800', 'Noto+Sans+JP:500,700,900'],
+      urls: [
+        'https://fonts.googleapis.com/css2?family=Spartan:wght@600;800&display=swap',
+        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap',
       ],
     },
   },
@@ -161,5 +162,6 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
+    defaultAssets: false,
   },
 }
