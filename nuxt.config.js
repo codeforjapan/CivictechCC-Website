@@ -1,5 +1,5 @@
 // @todo リリース時に ccc2020.code4japan.org に変える
-const baseUrl = 'civictechcc.netlify.app'
+const baseUrl = 'ccc2020.code4japan.org'
 
 export default {
   /*
@@ -82,6 +82,31 @@ export default {
         hid: 'twitter:image',
         name: 'twitter:image',
         content: `https://${baseUrl}/ogp.png`,
+      },
+      {
+        hid: 'fb:app_id',
+        name: 'fb:app_id',
+        content: `207490557254496`,
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: `@codeforJP`,
+      },
+      {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: `@codeforJP`,
+      },
+      {
+        hid: 'og:image:width',
+        name: 'og:image:width',
+        content: `1200`,
+      },
+      {
+        hid: 'og:image:height',
+        name: 'og:image:height',
+        content: `630`,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
