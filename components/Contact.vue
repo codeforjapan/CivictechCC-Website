@@ -7,6 +7,7 @@
       outlined
       href="https://forms.gle/rxUU9V3CQ71MpZkZ6"
       target="_blank"
+      rel="noopener"
     >
       <span class="Contact-Button-Label">お問い合わせ・取材依頼はこちら</span>
     </v-btn>
