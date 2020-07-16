@@ -18,6 +18,7 @@ export default {
   head: {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#',
+      lang: 'ja',
     },
     title: 'Civictech Challenge Cup',
     meta: [
