@@ -77,7 +77,7 @@ html {
   .Ently-1 {
     display: block !important;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1;
@@ -89,7 +89,7 @@ html {
   .Ently-2 {
     display: block !important;
     font-size: 10px;
-    font-weight: 700;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;
@@ -102,6 +102,7 @@ html {
     display: block;
     padding: 10px 20px;
   }
+
   color: $indigo-1;
 }
 
