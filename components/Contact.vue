@@ -17,7 +17,6 @@
 .Contact-Button {
   margin-right: auto;
   margin-left: auto;
-  width: 300px;
 
   &-Label {
     font-family: 'Noto Sans JP', sans-serif;
