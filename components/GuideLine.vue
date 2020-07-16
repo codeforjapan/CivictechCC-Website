@@ -124,6 +124,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.Ently-Button {
+  .Ently-1 {
+    display: block !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: -4px;
+  }
+
+  .Ently-2 {
+    display: block !important;
+    font-size: 10px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-top: 6px;
+  }
+
+  ::v-deep .v-btn__content {
+    display: block;
+    padding: 20px 55px;
+  }
+}
+
 .GuideLine {
   margin-bottom: 50px;
   &-Title {

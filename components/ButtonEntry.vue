@@ -36,14 +36,14 @@ export default {
   }
   &-Line1 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 2px;
     margin-top: -3px;
   }
 
   &-Line2 {
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.75px;
     margin-top: 5px;
   }
