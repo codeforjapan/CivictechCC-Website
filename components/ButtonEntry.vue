@@ -30,6 +30,7 @@ export default {
 .ButtonEntry {
   &-Line1,
   &-Line2 {
+    font-family: $font-ja;
     color: white;
     text-align: center;
     line-height: 1;
