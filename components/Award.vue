@@ -1,9 +1,18 @@
 <template>
   <section class="Award">
-    <section-title class="Award-Title" en-title="Awards" ja-title="賞" />
-    <span class="Award-Description">
-      協賛各社からの賞を随時公開予定です
-    </span>
+    <section-title
+      class="Award-Title"
+      en-title="Awards"
+      ja-title="表彰・賞典"
+    />
+    <ul class="Award-Description">
+      <li>
+        10月中旬ごろに最終報告会・表彰式を開催する予定です
+      </li>
+      <li>
+        協賛各社からの賞を随時公開予定です
+      </li>
+    </ul>
     <coming-soon class="Award-ComingSoon" />
   </section>
 </template>
@@ -16,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .Award {
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   &-Title {
     margin-left: 0;
     margin-right: auto;
