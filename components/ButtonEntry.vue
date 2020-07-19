@@ -10,7 +10,7 @@
   >
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
       <div class="ButtonEntry-Line1">エントリーする</div>
-      <div class="ButtonEntry-Line2">8月31日（月）まで！</div>
+      <div class="ButtonEntry-Line2">先着100名 募集中！</div>
     </div>
   </v-btn>
 </template>
@@ -40,14 +40,14 @@ export default {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-top: -3px;
+    margin-top: -2px;
   }
 
   &-Line2 {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.75px;
-    margin-top: 5px;
+    margin-top: 6px;
   }
 }
 </style>
