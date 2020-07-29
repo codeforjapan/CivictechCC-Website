@@ -42,6 +42,16 @@
           >
         </v-row>
       </li>
+      <li>
+        <v-row>
+          <v-col cols="12" md="3"
+            ><span class="Schedule-List-Title">最終審査会</span></v-col
+          >
+          <v-col cols="12" md="9"
+            ><span class="Schedule-List-Content">10月25日(日)</span></v-col
+          >
+        </v-row>
+      </li>
     </ul>
   </section>
 </template>
