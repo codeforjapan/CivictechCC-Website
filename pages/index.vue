@@ -1,5 +1,6 @@
 <template>
   <v-layout class="index" column>
+    <twitter-share />
     <theme-sample />
     <examination-criteria />
     <award />
