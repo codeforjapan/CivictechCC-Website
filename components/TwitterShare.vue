@@ -16,14 +16,7 @@
 
 <script>
 export default {
-  name: 'TwitterShare',
-  methods: {
-    twitter() {
-      const url =
-        'https://twitter.com/intent/tweet?text=Civictech Challenge Cup U-22&url=https://ccc2020.code4japan.org&hashtags=CCCu22'
-      window.open(url)
-    },
-  },
+  name: 'TwitterShare'
 }
 </script>
 
