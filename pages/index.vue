@@ -5,6 +5,7 @@
     <award />
     <guide-line />
     <schedule />
+    <special-sponsor />
     <sponsor />
     <organizer />
     <contact />
