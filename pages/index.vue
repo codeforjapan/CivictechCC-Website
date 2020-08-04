@@ -1,15 +1,23 @@
 <template>
-  <v-layout class="index" column>
-    <theme-sample />
-    <examination-criteria />
-    <award />
-    <guide-line />
-    <schedule />
-    <special-sponsor />
-    <sponsor />
-    <organizer />
-    <contact />
-  </v-layout>
+  <div>
+    <v-container>
+      <theme-sample />
+      <examination-criteria />
+      <award />
+      <guide-line />
+      <schedule />
+    </v-container>
+    <v-container fluid class="white">
+      <v-container>
+        <special-sponsor />
+        <sponsor />
+      </v-container>
+    </v-container>
+    <v-container>
+      <organizer />
+      <contact />
+    </v-container>
+  </div>
 </template>
 
 <style scoped>

@@ -16,8 +16,8 @@
 
 <style lang="scss" scoped>
 .Contact-Button {
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
 
   &-Label {
     font-family: $font-ja;
