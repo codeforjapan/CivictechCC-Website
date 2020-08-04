@@ -5,13 +5,18 @@
       en-title="Special Sponsors"
       ja-title="特別協賛"
     />
-    <coming-soon class="SpecialSponsor-ComingSoon" />
+    <BackgroundText class="SpecialSponsor-ComingSoon" value="Coming Soon" />
   </section>
 </template>
 
 <script>
+import BackgroundText from '@/components/BackgroundText.vue'
+
 export default {
   name: 'SpecialSponsor',
+  components: {
+    BackgroundText,
+  },
 }
 </script>
 

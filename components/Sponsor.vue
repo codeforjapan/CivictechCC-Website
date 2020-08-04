@@ -1,13 +1,18 @@
 <template>
   <section class="Sponsor">
     <section-title class="Sponsor-Title" en-title="Sponsors" ja-title="協賛" />
-    <coming-soon class="Sponsor-ComingSoon" />
+    <BackgroundText class="Sponsor-ComingSoon" value="Coming Soon" />
   </section>
 </template>
 
 <script>
+import BackgroundText from '@/components/BackgroundText.vue'
+
 export default {
   name: 'Sponsor',
+  components: {
+    BackgroundText,
+  },
 }
 </script>
 
