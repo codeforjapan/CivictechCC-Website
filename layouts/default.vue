@@ -15,7 +15,7 @@
       </v-container>
     </section>
     <v-main class="main" fluid>
-      <v-container>
+      <v-container fluid>
         <nuxt />
       </v-container>
     </v-main>
