@@ -4,23 +4,23 @@
     <div class="d-flex justify-center flex-wrap mt-4">
       <SponsorLogo
         class="Sponsor-Item"
-        image-src="sponsors/akatsuki.png"
+        image-src="sp/akatsuki.png"
         href="https://aktsk.jp/"
       />
       <SponsorLogo
         class="Sponsor-Item"
-        image-src="sponsors/udtalk.svg"
+        image-src="sp/udtalk.svg"
         href="https://udtalk.jp/"
       />
       <SponsorLogo
         class="Sponsor-Item"
-        image-src="sponsors/sakura-internet.svg"
+        image-src="sp/sakura-internet.svg"
         href="https://www.sakura.ad.jp/"
         :image-margin-top-pixel="16.38"
       />
       <SponsorLogo
         class="Sponsor-Item"
-        image-src="sponsors/yahoo-japan.svg"
+        image-src="sp/yahoo-japan.svg"
         href="https://www.yahoo.co.jp/"
       />
     </div>

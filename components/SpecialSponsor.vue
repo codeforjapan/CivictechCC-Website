@@ -8,7 +8,7 @@
     <div class="d-flex justify-center flex-wrap mt-4">
       <SponsorLogo
         class="SpecialSponsor-Item"
-        image-src="sponsors/creatures.svg"
+        image-src="sp/creatures.svg"
         href="https://www.creatures.co.jp/"
         larger
       />
