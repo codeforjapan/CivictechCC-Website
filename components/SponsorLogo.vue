@@ -14,6 +14,10 @@
       contain
       :height="imageHeight"
       :width="imageWidth"
+      :style="{
+        marginTop: calculatedImageMarginTop,
+        marginBottom: calculatedImageMarginBottom,
+      }"
       eager
     />
   </v-btn>
@@ -35,6 +39,11 @@ export default {
       type: Boolean,
       default: false,
     },
+    imageMarginTopPixel: {
+      type: Number,
+      required: false,
+      default: undefined,
+    },
   },
   computed: {
     imageHeight() {
@@ -42,6 +51,14 @@ export default {
     },
     imageWidth() {
       return this.larger ? '480px' : '300px'
+    },
+    calculatedImageMarginTop() {
+      return this.imageMarginTopPixel ? `${this.imageMarginTopPixel}px` : '30px'
+    },
+    calculatedImageMarginBottom() {
+      return this.imageMarginTop
+        ? `${30 + (30 - this.imageMarginTopPixel)}px`
+        : '30px'
     },
   },
 }
@@ -55,7 +72,16 @@ export default {
   }
 
   &-Image {
-    margin: 30px 20px;
+    margin: {
+      left: 25px;
+      right: 25px;
+    }
+
+    /*
+     * margin-top & margin-bottom はインラインで設定
+     * ロゴによって上下の位置をずらす必要があるためそれぞれ計算する
+     * 初期値は margin-top: 30px; margin-bottom: 30px;
+     */
 
     @media screen and (max-width: 479px) {
       max-width: 360px !important;
