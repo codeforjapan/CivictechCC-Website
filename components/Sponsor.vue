@@ -16,7 +16,7 @@
         class="Sponsor-Item"
         image-src="sponsors/sakura-internet.svg"
         href="https://www.sakura.ad.jp/"
-        image-margin-top-pixel="16.38"
+        :image-margin-top-pixel="16.38"
       />
       <SponsorLogo
         class="Sponsor-Item"
