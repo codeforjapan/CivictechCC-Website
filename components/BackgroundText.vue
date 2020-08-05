@@ -1,5 +1,7 @@
 <template>
-  <span class="BackgroundText" :style="{ color: color }">{{ value }}</span>
+  <span class="BackgroundText" :style="{ color: color, fontSize: fontSize }">{{
+    value
+  }}</span>
 </template>
 
 <script>
@@ -14,6 +16,10 @@ export default {
       type: String,
       default: '#d8d8d8',
     },
+    fontSize: {
+      type: String,
+      default: '80px',
+    },
   },
 }
 </script>
@@ -21,7 +27,7 @@ export default {
 <style lang="scss" scoped>
 .BackgroundText {
   font-family: $font-en;
-  font-size: 80px;
+  // font-size: 80px;
   font-weight: bold;
   line-height: 1;
   letter-spacing: -2.51px;
