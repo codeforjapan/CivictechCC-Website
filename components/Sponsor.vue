@@ -25,9 +25,10 @@
       />
     </div>
     <BackgroundText
-      class="Sponsor-ComingSoon"
+      class="Sponsor-AndMore"
       value="And more..."
       color="#a2a2a2"
+      font-size="48px"
     />
   </section>
 </template>
@@ -54,9 +55,9 @@ export default {
   &-Item {
     margin: 12px;
   }
-  &-ComingSoon {
+  &-AndMore {
     display: block;
-    margin: 30px auto 10px;
+    margin: 25px auto 10px;
   }
 }
 </style>
