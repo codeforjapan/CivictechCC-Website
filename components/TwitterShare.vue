@@ -15,7 +15,7 @@
       </v-btn>
     </v-col>
     <v-col cols="6" class="HashtagCols">
-      <span>ハッシュタグ: #CCCu22</span>
+      <span>#CCCu22</span>
     </v-col>
   </v-row>
 </template>
