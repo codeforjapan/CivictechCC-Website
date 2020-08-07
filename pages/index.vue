@@ -1,6 +1,7 @@
 <template>
   <div>
     <v-container>
+      <twitter-share />
       <theme-sample />
       <examination-criteria />
       <award />

@@ -61,7 +61,7 @@ html {
 }
 
 .main {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
 }
 
