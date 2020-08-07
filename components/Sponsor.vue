@@ -1,29 +1,63 @@
 <template>
   <section class="Sponsor">
     <section-title class="Sponsor-Title" en-title="Sponsors" ja-title="協賛" />
-    <coming-soon class="Sponsor-ComingSoon" />
+    <div class="d-flex justify-center flex-wrap mt-4">
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/akatsuki.png"
+        href="https://aktsk.jp/"
+      />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/udtalk.svg"
+        href="https://udtalk.jp/"
+      />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/sakura-internet.svg"
+        href="https://www.sakura.ad.jp/"
+        :image-margin-top-pixel="16.38"
+      />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/yahoo-japan.svg"
+        href="https://www.yahoo.co.jp/"
+      />
+    </div>
+    <BackgroundText
+      class="Sponsor-AndMore"
+      value="And more..."
+      color="#a2a2a2"
+      font-size="48px"
+    />
   </section>
 </template>
 
 <script>
+import BackgroundText from '@/components/BackgroundText.vue'
+import SponsorLogo from '@/components/SponsorLogo.vue'
+
 export default {
   name: 'Sponsor',
+  components: {
+    BackgroundText,
+    SponsorLogo,
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .Sponsor {
-  margin-bottom: 200px;
   &-Title {
     margin-left: 0;
     margin-right: auto;
   }
-  &-ComingSoon {
-    left: 0;
-    width: 100%;
-    height: 0;
-    position: absolute;
-    margin: auto;
+  &-Item {
+    margin: 12px;
+  }
+  &-AndMore {
+    display: block;
+    margin: 25px auto 10px;
   }
 }
 </style>
