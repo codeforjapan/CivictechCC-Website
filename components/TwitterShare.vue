@@ -2,8 +2,9 @@
   <v-row class="TwitterShare">
     <v-col cols="6" class="ButtonCols">
       <v-btn
-        rounded
-        large
+        fab
+        small
+        elevation="1"
         color="#1DA1F2"
         class="ShareButton"
         href="https://twitter.com/intent/tweet?text=Civictech%20Challenge%20Cup%20U-22&url=https://ccc2020.code4japan.org&hashtags=CCCu22"
@@ -11,11 +12,16 @@
         rel="noopener noreferrer"
       >
         <img src="/twitter.svg" width="20" alt="twitter" />
-        <span>Twitterでシェア</span>
       </v-btn>
     </v-col>
     <v-col cols="6" class="HashtagCols">
-      <span>#CCCu22</span>
+      <a
+        href="https://twitter.com/intent/tweet?text=Civictech%20Challenge%20Cup%20U-22&url=https://ccc2020.code4japan.org&hashtags=CCCu22"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        #CCCu22 でシェア
+      </a>
     </v-col>
   </v-row>
 </template>
@@ -51,6 +57,10 @@ export default {
   .HashtagCols {
     margin: auto 0;
     text-align: left;
+    a {
+      color: #170f7b;
+      text-decoration: none;
+    }
   }
 }
 </style>
