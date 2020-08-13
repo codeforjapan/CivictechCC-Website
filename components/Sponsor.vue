@@ -23,6 +23,11 @@
         image-src="sp/yahoo-japan.svg"
         href="https://www.yahoo.co.jp/"
       />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/salesforce.svg"
+        href="https://www.salesforce.com/jp/"
+      />
     </div>
     <BackgroundText
       class="Sponsor-AndMore"
