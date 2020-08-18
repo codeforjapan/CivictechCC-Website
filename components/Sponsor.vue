@@ -23,7 +23,7 @@
         image-src="sp/yahoo-japan.svg"
         href="https://www.yahoo.co.jp/"
       />
-      <SponsorLogo
+      <SponsorLogoSalesforce
         class="Sponsor-Item"
         image-src="sp/salesforce.svg"
         href="https://www.salesforce.com/jp/"
@@ -41,12 +41,14 @@
 <script>
 import BackgroundText from '@/components/BackgroundText.vue'
 import SponsorLogo from '@/components/SponsorLogo.vue'
+import SponsorLogoSalesforce from '@/components/SponsorLogoSalesforce.vue'
 
 export default {
   name: 'Sponsor',
   components: {
     BackgroundText,
     SponsorLogo,
+    SponsorLogoSalesforce,
   },
 }
 </script>
