@@ -31,7 +31,7 @@
       <SponsorLogo
         class="Sponsor-Item"
         image-src="sp/yamato.png"
-        href="http://www.kuronekoyamato.co.jp/"
+        href="https://www.yamato-hd.co.jp/"
       />
     </div>
     <BackgroundText
