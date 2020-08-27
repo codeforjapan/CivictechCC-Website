@@ -4,6 +4,11 @@
     <div class="d-flex justify-center flex-wrap mt-4">
       <SponsorLogo
         class="Sponsor-Item"
+        image-src="sp/google.svg"
+        href="https://www.google.co.jp/"
+      />
+      <SponsorLogo
+        class="Sponsor-Item"
         image-src="sp/akatsuki.png"
         href="https://aktsk.jp/"
       />
