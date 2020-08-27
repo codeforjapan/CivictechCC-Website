@@ -54,9 +54,10 @@ export default {
     letter-spacing: normal;
     color: $indigo-1;
     padding-left: 1em;
+    margin-bottom: 1em;
     font: {
       family: $font-ja;
-      size: 20px;
+      size: 16px;
       weight: 700;
     }
 
@@ -64,25 +65,6 @@ export default {
       margin-bottom: 0;
     }
 
-    ul {
-      margin-bottom: 0.5em;
-      padding-left: calc(
-        24px + 0.5em
-      ); // 24px = .v-application ul のデフォルト値
-    }
-
-    li {
-      line-height: 15px;
-      padding: 0.5em;
-    }
-
-    &-SeeAlso {
-      margin-left: -0.6em;
-      font: {
-        size: 75%;
-        weight: 500;
-      }
-    }
   }
   &-Button {
     display: flex;
