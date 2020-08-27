@@ -28,6 +28,11 @@
         image-src="sp/salesforce.svg"
         href="https://www.salesforce.com/jp/"
       />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/yamato.png"
+        href="https://www.yamato-hd.co.jp/"
+      />
     </div>
     <BackgroundText
       class="Sponsor-AndMore"
