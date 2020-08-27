@@ -12,6 +12,7 @@
       <v-container>
         <special-sponsor />
         <sponsor />
+        <personal-sponsors />
       </v-container>
     </v-container>
     <v-container>

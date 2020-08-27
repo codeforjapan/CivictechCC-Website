@@ -65,6 +65,8 @@ export default {
 
 <style lang="scss" scoped>
 .Sponsor {
+  margin-bottom: 50px;
+
   &-Title {
     margin-left: 0;
     margin-right: auto;
