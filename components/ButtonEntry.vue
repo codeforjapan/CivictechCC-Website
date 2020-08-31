@@ -10,7 +10,7 @@
   >
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
       <div class="ButtonEntry-Line1">エントリーする</div>
-      <div class="ButtonEntry-Line2">先着100名 募集中！</div>
+      <div class="ButtonEntry-Line2">8月31日まで！</div>
     </div>
   </v-btn>
 </template>

@@ -38,6 +38,11 @@
         image-src="sp/yamato.png"
         href="https://www.yamato-hd.co.jp/"
       />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/plaid.png"
+        href="https://plaid.co.jp/"
+      />
     </div>
     <BackgroundText
       class="Sponsor-AndMore"
