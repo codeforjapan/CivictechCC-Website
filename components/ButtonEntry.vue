@@ -1,16 +1,7 @@
 <template>
-  <v-btn
-    class="ButtonEntry"
-    height="55px"
-    rounded
-    color="#170f7b"
-    href="https://forms.gle/NttQ2oR4FHusbWvm9"
-    target="_blank"
-    rel="noopener"
-  >
+  <v-btn class="ButtonEntry" height="55px" rounded color="#170f7b" disabled>
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
-      <div class="ButtonEntry-Line1">エントリーする</div>
-      <div class="ButtonEntry-Line2">8月31日まで！</div>
+      <div class="ButtonEntry-Line1">エントリーは終了しました！</div>
     </div>
   </v-btn>
 </template>
@@ -32,7 +23,7 @@ export default {
   &-Line1,
   &-Line2 {
     font-family: $font-ja;
-    color: white;
+    color: black;
     text-align: center;
     line-height: 1;
   }
