@@ -41,4 +41,13 @@ export default {
     margin-top: 6px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .ButtonEntry {
+    width: 220px;
+    &-Line1 {
+      font-size: 12px;
+    }
+  }
+}
 </style>
