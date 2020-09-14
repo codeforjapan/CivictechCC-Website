@@ -28,6 +28,12 @@
           個人協賛のお申し込みはこちら
         </span>
       </v-btn>
+      {{ today }}
+    </div>
+    <section-title en-title="" ja-title="ご協賛いただいた皆様 (9月14日現在)" />
+    <div class="PersonalSponsors-Description">
+      <span class="PersonalSponsors-Names">斉藤精一様</span>
+      <span class="PersonalSponsors-Names">小副川健様</span>
     </div>
   </section>
 </template>
@@ -75,6 +81,9 @@ export default {
       font-weight: 500;
       letter-spacing: 0.93px;
     }
+  }
+  .PersonalSponsors-Names {
+    margin-right: 20px;
   }
 }
 </style>
