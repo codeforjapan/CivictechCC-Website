@@ -94,6 +94,7 @@ export default {
     .PersonalSponsors-Sama {
       margin-left: 3px;
       font-size: 13px;
+      font-weight: 500;
     }
   }
 }
