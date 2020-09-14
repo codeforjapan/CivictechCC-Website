@@ -29,12 +29,25 @@
         </span>
       </v-btn>
     </div>
+    <section-title en-title="" ja-title="ご協賛いただいた皆様 (9月14日現在)" />
+    <div class="PersonalSponsors-Description">
+      <span v-for="(name, index) in names" :key="index">
+        <span class="PersonalSponsors-Names">
+          {{ name }}<span class="PersonalSponsors-Sama">様</span>
+        </span>
+      </span>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
   name: 'PersonalSponsors',
+  data() {
+    return {
+      names: ['斉藤精一', '小副川健'],
+    }
+  },
 }
 </script>
 
@@ -74,6 +87,14 @@ export default {
       font-size: 14px;
       font-weight: 500;
       letter-spacing: 0.93px;
+    }
+  }
+  .PersonalSponsors-Names {
+    margin-right: 20px;
+    .PersonalSponsors-Sama {
+      margin-left: 3px;
+      font-size: 13px;
+      font-weight: 500;
     }
   }
 }
