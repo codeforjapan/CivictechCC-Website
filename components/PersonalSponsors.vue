@@ -28,7 +28,6 @@
           個人協賛のお申し込みはこちら
         </span>
       </v-btn>
-      {{ today }}
     </div>
     <section-title en-title="" ja-title="ご協賛いただいた皆様 (9月14日現在)" />
     <div class="PersonalSponsors-Description">
