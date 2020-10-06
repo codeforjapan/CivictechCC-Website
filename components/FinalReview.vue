@@ -1,11 +1,11 @@
 <template>
-  <section class="FinalExaminationRound">
+  <section class="FinalReview">
     <section-title
       class="Final-Title"
-      en-title="Final Examination Round"
+      en-title="Final Review"
       ja-title="最終審査会"
     />
-    <div class="FinalExaminationRound-Description">
+    <div class="FinalReview-Description">
       <p>
         事前選考を勝ち抜いたファイナリストがプレゼンテーションを行い、大賞・企業賞を決定するCivictech
         Challenge Cupの集大成、最終審査会を10月25日に開催します！
@@ -16,7 +16,7 @@
         >から！
       </p>
     </div>
-    <div class="FinalExaminationRound-Image">
+    <div class="FinalReview-Image">
       <a href="https://ccc-final-review.peatix.com/"
         ><img src="@/static/Final.jpg"
       /></a>
@@ -25,7 +25,7 @@
 </template>
 
 <style lang="scss" scoped>
-.FinalExaminationRound {
+.FinalReview {
   margin-top: 2em;
   &-Image {
     img {
@@ -59,7 +59,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .FinalExaminationRound {
+  .FinalReview {
     &-Image {
       text-align: center;
       margin: 0 auto;

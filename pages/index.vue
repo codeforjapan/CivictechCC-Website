@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <twitter-share />
-      <final-examination-round />
+      <final-review />
       <theme-sample />
       <examination-criteria />
       <award />
