@@ -27,6 +27,7 @@
 <style lang="scss" scoped>
 .FinalReview {
   margin-top: 2em;
+  margin-bottom: 4em;
   &-Image {
     img {
       width: 40vw;
