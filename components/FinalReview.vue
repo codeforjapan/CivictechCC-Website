@@ -11,9 +11,10 @@
         Challenge Cupの集大成、最終審査会を10月25日に開催します！
       </p>
       <p>
-        申し込みは<a href="https://ccc-final-review.peatix.com/"
-          >こちらのPeatixページ</a
-        >から！
+        <del>
+          申し込みはこちらのPeatixページから！
+        </del>
+        <span style="color: red;">終了しました</span>
       </p>
     </div>
     <div class="FinalReview-Image">

@@ -15,15 +15,7 @@
       </p>
     </div>
     <div class="PersonalSponsors-Button">
-      <v-btn
-        height="55px"
-        rounded
-        color="#170f7b"
-        outlined
-        href="https://forms.gle/4beQrCvLMGyo6waX8"
-        target="_blank"
-        rel="noopener"
-      >
+      <v-btn height="55px" rounded color="#170f7b" outlined disabled>
         <span class="PersonalSponsors-Button-Label">
           個人協賛のお申し込みはこちら
         </span>
