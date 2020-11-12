@@ -49,24 +49,16 @@
         href="https://aws.amazon.com/jp/"
       />
     </div>
-    <BackgroundText
-      class="Sponsor-AndMore"
-      value="And more..."
-      color="#a2a2a2"
-      font-size="48px"
-    />
   </section>
 </template>
 
 <script>
-import BackgroundText from '@/components/BackgroundText.vue'
 import SponsorLogo from '@/components/SponsorLogo.vue'
 import SponsorLogoSalesforce from '@/components/SponsorLogoSalesforce.vue'
 
 export default {
   name: 'Sponsor',
   components: {
-    BackgroundText,
     SponsorLogo,
     SponsorLogoSalesforce,
   },
