@@ -43,6 +43,11 @@
         image-src="sp/plaid.png"
         href="https://plaid.co.jp/"
       />
+      <SponsorLogo
+        class="Sponsor-Item"
+        image-src="sp/aws.png"
+        href="https://aws.amazon.com/jp/"
+      />
     </div>
     <BackgroundText
       class="Sponsor-AndMore"
