@@ -5,35 +5,13 @@
       <ul>
         <li>
           <span class="FirstPrize">
-            大賞 : Civichat
+            <div class="FirstPrize-Award">大賞 :</div>
+            <div class="FirstPrize-Team">Civichat</div>
           </span>
         </li>
-        <li>
-          オーディエンス賞 : noob_fighter
-        </li>
-        <li>
-          クリーチャーズ賞 : Hrasvelgr
-        </li>
-        <li>
-          アカツキ賞 : Fork Bomb
-        </li>
-        <li>
-          UDトーク賞 : でんとつー
-        </li>
-        <li>
-          さくらインターネット賞 : でんとつー
-        </li>
-        <li>
-          ヤフー賞 : itrink
-        </li>
-        <li>
-          Salesforce賞 : Hrasvelgr
-        </li>
-        <li>
-          ヤマト賞 : Code By Ray
-        </li>
-        <li>
-          PLAID賞 : noob_fighter
+        <li v-for="(award, index) in award_result" :key="index">
+          <div class="Result-Description-Award">{{ award.award_name }} :</div>
+          <div class="Result-Description-Team">{{ award.team_name }}</div>
         </li>
       </ul>
     </div>
@@ -43,6 +21,21 @@
 <script>
 export default {
   name: 'Result',
+  data() {
+    return {
+      award_result: [
+        { award_name: 'オーディエンス賞', team_name: 'noob_fighter' },
+        { award_name: 'クリーチャーズ賞', team_name: 'Hrasvelgr' },
+        { award_name: 'アカツキ賞', team_name: 'Fork Bomb' },
+        { award_name: 'UDトーク賞', team_name: 'でんとつー' },
+        { award_name: 'さくらインターネット賞', team_name: 'でんとつー' },
+        { award_name: 'ヤフー賞', team_name: 'itirnk' },
+        { award_name: 'Salesforce賞', team_name: 'Hrasvelgr' },
+        { award_name: 'ヤマト賞', team_name: 'Code By Ray' },
+        { award_name: 'PLAID賞', team_name: 'noob_fighter' },
+      ],
+    }
+  },
 }
 </script>
 
@@ -80,8 +73,16 @@ export default {
     }
 
     li {
-      line-height: 15px;
-      padding: 0.5em;
+      line-height: 20px;
+      padding: 1em;
+      padding-left: 0.5em;
+      .Result-Description-Award {
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      .Result-Description-Team {
+        font-size: 30px;
+      }
     }
 
     &-SeeAlso {
@@ -94,9 +95,9 @@ export default {
   }
 }
 .FirstPrize {
-  font: {
-    size: 150%;
-    weight: 600;
+  line-height: 50px;
+  &-Team {
+    font-size: 50px;
   }
 }
 </style>
