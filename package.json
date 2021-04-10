@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "echo skipping 'yarn build'. Run 'yarn export' to generate website.",
     "start": "nuxt start",
     "export": "nuxt generate",
     "serve": "nuxt start",
