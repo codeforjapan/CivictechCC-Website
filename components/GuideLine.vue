@@ -6,21 +6,15 @@
       ja-title="募集要件"
     />
     <v-card width="100%" color="#F5F5F2" class="GuideLine-Card" elevation="0">
-      <v-card-subtitle class="GuideLine-Card-Title">
-        募集対象
-      </v-card-subtitle>
+      <v-card-subtitle class="GuideLine-Card-Title"> 募集対象 </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
         自分の持つスキル（プログラミングやデザインを含むがこれに限らない）を、社会課題の解決に活かしたい方
       </v-card-text>
       <v-divider />
-      <v-card-subtitle class="GuideLine-Card-Title">
-        応募資格
-      </v-card-subtitle>
+      <v-card-subtitle class="GuideLine-Card-Title"> 応募資格 </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
         <ul>
-          <li>
-            1998年4月2日以降生まれの方
-          </li>
+          <li>1998年4月2日以降生まれの方</li>
           <li>
             現在のスキルレベルにかかわらず、開発を通じて積極的にスキルアップしていく意思のある方
           </li>
@@ -38,9 +32,7 @@
         </ul>
       </v-card-text>
       <v-divider />
-      <v-card-subtitle class="GuideLine-Card-Title">
-        開発形態
-      </v-card-subtitle>
+      <v-card-subtitle class="GuideLine-Card-Title"> 開発形態 </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
         <ul>
           <li>
@@ -62,34 +54,18 @@
         応募作品について
       </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
-        <p>
-          応募作品は下記のいずれか又は複数の組み合わせとします。
-        </p>
+        <p>応募作品は下記のいずれか又は複数の組み合わせとします。</p>
         <ul>
-          <li>
-            Windows・macOS上で動作するソフトウェア
-          </li>
-          <li>
-            Android・iOS上で動作するアプリ
-          </li>
-          <li>
-            Webアプリ
-          </li>
-          <li>
-            その他、IoTデバイス等を利用した作品（※）
-          </li>
+          <li>Windows・macOS上で動作するソフトウェア</li>
+          <li>Android・iOS上で動作するアプリ</li>
+          <li>Webアプリ</li>
+          <li>その他、IoTデバイス等を利用した作品（※）</li>
         </ul>
-        <p>
-          ※ IoTデバイス等を利用する場合は事前にお知らせください。
-        </p>
-        <p>
-          使用するプログラミング言語やAPI等は問いません。
-        </p>
+        <p>※ IoTデバイス等を利用する場合は事前にお知らせください。</p>
+        <p>使用するプログラミング言語やAPI等は問いません。</p>
       </v-card-text>
       <v-divider />
-      <v-card-subtitle class="GuideLine-Card-Title">
-        備考
-      </v-card-subtitle>
+      <v-card-subtitle class="GuideLine-Card-Title"> 備考 </v-card-subtitle>
       <v-card-text class="GuideLine-Card-Text">
         <ul>
           <li>

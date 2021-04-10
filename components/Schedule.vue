@@ -38,9 +38,7 @@
             ><span class="Schedule-List-Title">ファイナリスト選出</span></v-col
           >
           <v-col cols="12" md="9">
-            <span class="Schedule-List-Content">
-              10月上旬
-            </span>
+            <span class="Schedule-List-Content"> 10月上旬 </span>
             <span class="Schedule-List-Content-Small">
               審査基準をもとにファイナリストが選出されます。
             </span>
@@ -53,9 +51,7 @@
             ><span class="Schedule-List-Title">最終審査会</span></v-col
           >
           <v-col cols="12" md="9">
-            <span class="Schedule-List-Content">
-              10月25日(日)
-            </span>
+            <span class="Schedule-List-Content"> 10月25日(日) </span>
             <span class="Schedule-List-Content-Small">
               ファイナリストの中から大賞・企業賞が授与されます。
             </span>
