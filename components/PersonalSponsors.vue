@@ -10,9 +10,7 @@
         Civictech Challenge Cupでは、個人協賛を募集しております。
         皆様からの協賛金は、全額を運営のために大切に使わせていただきます。
       </p>
-      <p>
-        詳しい内容につきましては、下記お申込みフォームよりご確認ください。
-      </p>
+      <p>詳しい内容につきましては、下記お申込みフォームよりご確認ください。</p>
     </div>
     <div class="PersonalSponsors-Button">
       <v-btn height="55px" rounded color="#170f7b" outlined disabled>

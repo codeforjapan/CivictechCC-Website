@@ -10,12 +10,8 @@
       </v-col>
       <v-col>
         <div class="ThemeSample-Description">
-          <span>
-            テーマは何でもOK！
-          </span>
-          <span>
-            自分が興味のあるテーマを設定しよう！
-          </span>
+          <span> テーマは何でもOK！ </span>
+          <span> 自分が興味のあるテーマを設定しよう！ </span>
         </div>
       </v-col>
     </v-row>

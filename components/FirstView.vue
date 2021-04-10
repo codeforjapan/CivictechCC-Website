@@ -6,7 +6,7 @@
         <span><span class="Marker">学生</span>がつくる</span>
         <span><span class="Marker">未来</span>のカタチ</span>
       </v-card-title>
-      <v-card-text style="text-align: left;" class="FirstView-Card-Concept">
+      <v-card-text style="text-align: left" class="FirstView-Card-Concept">
         行きたかったインターンにいけない。<br />
         時間はたくさんあるのに、好きなことができない。<br />
         身近の課題は見えているけれど、一人ではどうにもならない。<br />

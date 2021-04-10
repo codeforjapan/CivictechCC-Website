@@ -27,9 +27,7 @@
         Privacy Policy
       </a>
       <v-spacer />
-      <span class="Code-for-Japan">
-        &copy; Code for Japan
-      </span>
+      <span class="Code-for-Japan"> &copy; Code for Japan </span>
     </v-footer>
   </v-app>
 </template>

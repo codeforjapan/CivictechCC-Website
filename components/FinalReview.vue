@@ -11,10 +11,8 @@
         Challenge Cupの集大成、最終審査会を10月25日に開催します！
       </p>
       <p>
-        <del>
-          申し込みはこちらのPeatixページから！
-        </del>
-        <span style="color: red;">終了しました</span>
+        <del> 申し込みはこちらのPeatixページから！ </del>
+        <span style="color: red">終了しました</span>
       </p>
     </div>
     <div class="FinalReview-Image">
