@@ -87,20 +87,20 @@ export default {
       const lgAndUp = this.$vuetify.breakpoint.lgAndUp
       return [
         {
-          'pl-3': lgAndUp,
+          'pl-2': lgAndUp,
           'pr-1': lgAndUp,
-          'py-3': lgAndUp,
-          'px-4': !lgAndUp,
-          'pt-4': !lgAndUp,
-          'pb-2': !lgAndUp,
+          'py-2': lgAndUp,
+          'px-2': !lgAndUp,
+          'pt-2': !lgAndUp,
+          'pb-1': !lgAndUp,
         },
         {
           'pl-1': lgAndUp,
-          'pr-3': lgAndUp,
-          'py-3': lgAndUp,
-          'px-4': !lgAndUp,
-          'pt-2': !lgAndUp,
-          'pb-3': !lgAndUp,
+          'pr-2': lgAndUp,
+          'py-2': lgAndUp,
+          'px-2': !lgAndUp,
+          'pt-1': !lgAndUp,
+          'pb-2': !lgAndUp,
         },
       ]
     },
@@ -179,7 +179,7 @@ export default {
     font-size: 50px;
   }
   &-Images {
-    background: rgb(71, 71, 71);
+    background: rgb(92, 92, 92);
   }
   img {
     margin-top: 1em;
