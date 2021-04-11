@@ -72,11 +72,11 @@ export default {
       ],
       civichatImages: [
         {
-          src: require('@/static/civichat-1.png'),
+          src: '/civichat-1.png',
           alt: 'Civichatで自分に合った制度が調べられます。',
         },
         {
-          src: require('@/static/civichat-2.png'),
+          src: '/civichat-2.png',
           alt: 'Civichatは熊本市で実証実験を行いました。',
         },
       ],
