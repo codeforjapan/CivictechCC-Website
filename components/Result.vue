@@ -8,20 +8,20 @@
           <div class="FirstPrize-Team">Civichat</div>
           <p>
             大賞を受賞した
-            <a href="https:civichat.jp" target="_blank" rel="noopener"
-              >Civichat</a
-            >
-            は、CCC開催後に<a
+            <ExternalLink href="https:civichat.jp">Civichat</ExternalLink>
+            はCCC開催後に<ExternalLink
               href="https://nnn.ed.jp/news/blog/archives/11586.html"
-              target="_blank"
-              rel="noopener"
-              >起業し</a
-            >、2020年12月から熊本市における熊本地震の「被災者支援制度」の案内ツールとして<a
+              >起業し</ExternalLink
+            >、2020年12月から熊本市における熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
               href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
-              target="_blank"
-              rel="noopener"
-              >実証実験を行いました</a
+              >実証実験を行いました</ExternalLink
             >。
+          </p>
+          <p>
+            2021年3月より、TwitterのDMで制度を検索できる<ExternalLink
+              href="https://prtimes.jp/main/html/rd/p/000000003.000070804.html"
+              >ベータ版を提供</ExternalLink
+            >しています。
           </p>
           <v-row class="mt-5 FirstPrize-Images" align="center" no-gutters>
             <v-col
@@ -53,8 +53,10 @@
 </template>
 
 <script>
+import ExternalLink from './ExternalLink.vue'
 export default {
   name: 'Result',
+  components: { ExternalLink },
   data() {
     return {
       award_result: [
@@ -129,9 +131,13 @@ export default {
 
     p {
       line-height: 1.5em;
-      margin-top: 1em;
+      margin-top: 0.5em;
       margin-bottom: 0;
       text-indent: 1em;
+
+      &:first-of-type {
+        margin-top: 1em;
+      }
     }
 
     ul {
