@@ -21,7 +21,10 @@
             2021年3月より、TwitterのDMで制度を検索できる<ExternalLink
               href="https://prtimes.jp/main/html/rd/p/000000003.000070804.html"
               >ベータ版を提供</ExternalLink
-            >しています。
+            >しています。（<ExternalLink
+              href="https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085"
+              >市公式リリース</ExternalLink
+            >）
           </p>
           <v-row class="mt-5 FirstPrize-Images" align="center" no-gutters>
             <v-col
@@ -31,7 +34,9 @@
               lg="6"
               :class="civichatImageClass[index]"
             >
-              <v-img :src="img.src" :alt="img.alt" />
+              <a :href="img.link" target="_blank" rel="noopener">
+                <v-img :src="img.src" :alt="img.alt" />
+              </a>
             </v-col>
           </v-row>
         </div>
@@ -74,10 +79,13 @@ export default {
         {
           src: '/civichat-1.png',
           alt: 'Civichatで自分に合った制度が調べられます。',
+          link: 'https:civichat.jp',
         },
         {
           src: '/civichat-2.png',
           alt: 'Civichatは熊本市で実証実験を行いました。',
+          link:
+            'https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085',
         },
       ],
     }
