@@ -1,23 +1,54 @@
 <template>
   <section class="Result">
     <section-title class="Result-Title" en-title="Result" ja-title="結果" />
-    <div class="Result-Description">
-      <ul>
-        <div>
-          <li>
-            <div class="FirstPrize">
-              <div class="FirstPrize-Award">大賞 :</div>
-              <div class="FirstPrize-Team">Civichat</div>
-              <div class="FirstPrize-Img"><img src="@/static/champ.png" /></div>
-            </div>
-          </li>
+    <v-row class="Result-Description">
+      <v-col cols="12">
+        <div class="FirstPrize">
+          <div class="FirstPrize-Award">大賞 :</div>
+          <div class="FirstPrize-Team">Civichat</div>
+          <p>
+            大賞を受賞した
+            <a href="https:civichat.jp" target="_blank" rel="noopener"
+              >Civichat</a
+            >
+            は、CCC開催後に<a
+              href="https://nnn.ed.jp/news/blog/archives/11586.html"
+              target="_blank"
+              rel="noopener"
+              >起業し</a
+            >、2020年12月から熊本市における熊本地震の「被災者支援制度」の案内ツールとして<a
+              href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
+              target="_blank"
+              rel="noopener"
+              >実証実験を行いました</a
+            >。
+          </p>
+          <v-row class="mt-5 FirstPrize-Images" align="center" no-gutters>
+            <v-col
+              v-for="(img, index) in civichatImages"
+              :key="index"
+              cols="12"
+              lg="6"
+              :class="civichatImageClass[index]"
+            >
+              <v-img :src="img.src" :alt="img.alt" />
+            </v-col>
+          </v-row>
         </div>
-        <li v-for="(award, index) in award_result" :key="index">
-          <div class="Result-Description-Award">{{ award.award_name }} :</div>
-          <div class="Result-Description-Team">{{ award.team_name }}</div>
-        </li>
-      </ul>
-    </div>
+      </v-col>
+      <v-col cols="12">
+        <div class="Result-Description">
+          <ul>
+            <li v-for="(award, index) in award_result" :key="index">
+              <div class="Result-Description-Award">
+                {{ award.award_name }} :
+              </div>
+              <div class="Result-Description-Team">{{ award.team_name }}</div>
+            </li>
+          </ul>
+        </div>
+      </v-col>
+    </v-row>
   </section>
 </template>
 
@@ -37,7 +68,40 @@ export default {
         { award_name: 'ヤマト賞', team_name: 'Code By Ray' },
         { award_name: 'PLAID賞', team_name: 'noob_fighter' },
       ],
+      civichatImages: [
+        {
+          src: require('@/static/civichat-1.png'),
+          alt: 'Civichatで自分に合った制度が調べられます。',
+        },
+        {
+          src: require('@/static/civichat-2.png'),
+          alt: 'Civichatは熊本市で実証実験を行いました。',
+        },
+      ],
     }
+  },
+  computed: {
+    civichatImageClass() {
+      const lgAndUp = this.$vuetify.breakpoint.lgAndUp
+      return [
+        {
+          'pl-3': lgAndUp,
+          'pr-1': lgAndUp,
+          'py-3': lgAndUp,
+          'px-4': !lgAndUp,
+          'pt-4': !lgAndUp,
+          'pb-2': !lgAndUp,
+        },
+        {
+          'pl-1': lgAndUp,
+          'pr-3': lgAndUp,
+          'py-3': lgAndUp,
+          'px-4': !lgAndUp,
+          'pt-2': !lgAndUp,
+          'pb-3': !lgAndUp,
+        },
+      ]
+    },
   },
 }
 </script>
@@ -64,7 +128,10 @@ export default {
     }
 
     p {
+      line-height: 1.5em;
+      margin-top: 1em;
       margin-bottom: 0;
+      text-indent: 1em;
     }
 
     ul {
@@ -104,6 +171,9 @@ export default {
   line-height: 50px;
   &-Team {
     font-size: 50px;
+  }
+  &-Images {
+    background: rgb(71, 71, 71);
   }
   img {
     margin-top: 1em;
