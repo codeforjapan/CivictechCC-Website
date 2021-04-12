@@ -7,21 +7,11 @@
           <div class="FirstPrize-Award">大賞 :</div>
           <div class="FirstPrize-Team">Civichat</div>
           <p>
-            大賞を受賞した
             <ExternalLink href="https:civichat.jp">Civichat</ExternalLink>
-            はCCC開催後に<ExternalLink
-              href="https://nnn.ed.jp/news/blog/archives/11586.html"
-              >起業し</ExternalLink
-            >、2020年12月から熊本市における熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
+            は2020年12月から熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
               href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
-              >実証実験を行いました</ExternalLink
-            >。
-          </p>
-          <p>
-            2021年3月より、TwitterのDMで制度を検索できる<ExternalLink
-              href="https://prtimes.jp/main/html/rd/p/000000003.000070804.html"
-              >ベータ版を提供</ExternalLink
-            >しています。（<ExternalLink
+              >実証実験を行い</ExternalLink
+            >、現在ベータ版を提供しています。（<ExternalLink
               href="https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085"
               >市公式リリース</ExternalLink
             >）
