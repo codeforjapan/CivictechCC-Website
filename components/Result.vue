@@ -1,67 +1,29 @@
 <template>
   <section class="Result">
     <section-title class="Result-Title" en-title="Result" ja-title="結果" />
-    <v-row class="Result-Description">
-      <v-col cols="12">
-        <div class="FirstPrize">
-          <div class="FirstPrize-Award">大賞 :</div>
-          <div class="FirstPrize-Team">Civichat</div>
-          <p>
-            大賞を受賞した
-            <ExternalLink href="https:civichat.jp">Civichat</ExternalLink>
-            はCCC開催後に<ExternalLink
-              href="https://nnn.ed.jp/news/blog/archives/11586.html"
-              >起業し</ExternalLink
-            >、2020年12月から熊本市における熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
-              href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
-              >実証実験を行いました</ExternalLink
-            >。
-          </p>
-          <p>
-            2021年3月より、TwitterのDMで制度を検索できる<ExternalLink
-              href="https://prtimes.jp/main/html/rd/p/000000003.000070804.html"
-              >ベータ版を提供</ExternalLink
-            >しています。（<ExternalLink
-              href="https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085"
-              >市公式リリース</ExternalLink
-            >）
-          </p>
-          <v-row class="mt-5 FirstPrize-Images" align="center" no-gutters>
-            <v-col
-              v-for="(img, index) in civichatImages"
-              :key="index"
-              cols="12"
-              lg="6"
-              :class="civichatImageClass[index]"
-            >
-              <a :href="img.link" target="_blank" rel="noopener">
-                <v-img :src="img.src" :alt="img.alt" />
-              </a>
-            </v-col>
-          </v-row>
+    <div class="Result-Description">
+      <ul>
+        <div>
+          <li>
+            <div class="FirstPrize">
+              <div class="FirstPrize-Award">大賞 :</div>
+              <div class="FirstPrize-Team">Civichat</div>
+              <div class="FirstPrize-Img"><img src="@/static/champ.png" /></div>
+            </div>
+          </li>
         </div>
-      </v-col>
-      <v-col cols="12">
-        <div class="Result-Description">
-          <ul>
-            <li v-for="(award, index) in award_result" :key="index">
-              <div class="Result-Description-Award">
-                {{ award.award_name }} :
-              </div>
-              <div class="Result-Description-Team">{{ award.team_name }}</div>
-            </li>
-          </ul>
-        </div>
-      </v-col>
-    </v-row>
+        <li v-for="(award, index) in award_result" :key="index">
+          <div class="Result-Description-Award">{{ award.award_name }} :</div>
+          <div class="Result-Description-Team">{{ award.team_name }}</div>
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
 
 <script>
-import ExternalLink from './ExternalLink.vue'
 export default {
   name: 'Result',
-  components: { ExternalLink },
   data() {
     return {
       award_result: [
@@ -75,43 +37,7 @@ export default {
         { award_name: 'ヤマト賞', team_name: 'Code By Ray' },
         { award_name: 'PLAID賞', team_name: 'noob_fighter' },
       ],
-      civichatImages: [
-        {
-          src: '/civichat-1.png',
-          alt: 'Civichatで自分に合った制度が調べられます。',
-          link: 'https:civichat.jp',
-        },
-        {
-          src: '/civichat-2.png',
-          alt: 'Civichatは熊本市で実証実験を行いました。',
-          link:
-            'https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085',
-        },
-      ],
     }
-  },
-  computed: {
-    civichatImageClass() {
-      const lgAndUp = this.$vuetify.breakpoint.lgAndUp
-      return [
-        {
-          'pl-2': lgAndUp,
-          'pr-1': lgAndUp,
-          'py-2': lgAndUp,
-          'px-2': !lgAndUp,
-          'pt-2': !lgAndUp,
-          'pb-1': !lgAndUp,
-        },
-        {
-          'pl-1': lgAndUp,
-          'pr-2': lgAndUp,
-          'py-2': lgAndUp,
-          'px-2': !lgAndUp,
-          'pt-1': !lgAndUp,
-          'pb-2': !lgAndUp,
-        },
-      ]
-    },
   },
 }
 </script>
@@ -138,14 +64,7 @@ export default {
     }
 
     p {
-      line-height: 1.5em;
-      margin-top: 0.5em;
       margin-bottom: 0;
-      text-indent: 1em;
-
-      &:first-of-type {
-        margin-top: 1em;
-      }
     }
 
     ul {
@@ -185,9 +104,6 @@ export default {
   line-height: 50px;
   &-Team {
     font-size: 50px;
-  }
-  &-Images {
-    background: rgb(92, 92, 92);
   }
   img {
     margin-top: 1em;
