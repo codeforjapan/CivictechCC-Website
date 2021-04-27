@@ -41,10 +41,8 @@
 </template>
 
 <script>
-import ExternalLink from './ExternalLink.vue'
 export default {
   name: 'Result',
-  components: { ExternalLink },
   data() {
     return {
       award_result: [
