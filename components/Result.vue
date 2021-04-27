@@ -58,43 +58,7 @@ export default {
         { award_name: 'ヤマト賞', team_name: 'Code By Ray' },
         { award_name: 'PLAID賞', team_name: 'noob_fighter' },
       ],
-      civichatImages: [
-        {
-          src: '/civichat-1.png',
-          alt: 'Civichatで自分に合った制度が調べられます。',
-          link: 'https:civichat.jp',
-        },
-        {
-          src: '/civichat-2.png',
-          alt: 'Civichatは熊本市で実証実験を行いました。',
-          link:
-            'https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085',
-        },
-      ],
     }
-  },
-  computed: {
-    civichatImageClass() {
-      const lgAndUp = this.$vuetify.breakpoint.lgAndUp
-      return [
-        {
-          'pl-2': lgAndUp,
-          'pr-1': lgAndUp,
-          'py-2': lgAndUp,
-          'px-2': !lgAndUp,
-          'pt-2': !lgAndUp,
-          'pb-1': !lgAndUp,
-        },
-        {
-          'pl-1': lgAndUp,
-          'pr-2': lgAndUp,
-          'py-2': lgAndUp,
-          'px-2': !lgAndUp,
-          'pt-1': !lgAndUp,
-          'pb-2': !lgAndUp,
-        },
-      ]
-    },
   },
 }
 </script>
