@@ -1,16 +1,11 @@
 <template>
   <span>
-    <a :href="href" target="_blank" rel="noopener"><slot></slot></a
-    ><OpenInNew class="ExternalLink-Icon" />
+    <a :href="href" target="_blank" rel="noopener"><slot></slot></a>
   </span>
 </template>
 
 <script>
-import OpenInNew from '@/assets/open-in-new.svg'
 export default {
-  components: {
-    OpenInNew,
-  },
   props: {
     href: {
       type: String,
