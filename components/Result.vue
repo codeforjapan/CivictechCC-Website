@@ -4,29 +4,22 @@
     <v-row class="Result-Description">
       <v-col cols="12">
         <div class="FirstPrize">
-          <div class="FirstPrize-Award">大賞 :</div>
-          <div class="FirstPrize-Team">Civichat</div>
-          <p>
-            <ExternalLink href="https:civichat.jp">Civichat</ExternalLink>
-            は2020年12月から熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
-              href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
-              >実証実験を行い</ExternalLink
-            >、現在ベータ版を提供しています。（<ExternalLink
-              href="https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085"
-              >市公式リリース</ExternalLink
-            >）
-          </p>
-          <v-row class="mt-5 FirstPrize-Images" align="center" no-gutters>
-            <v-col
-              v-for="(img, index) in civichatImages"
-              :key="index"
-              cols="12"
-              lg="6"
-              :class="civichatImageClass[index]"
-            >
-              <a :href="img.link" target="_blank" rel="noopener">
-                <v-img :src="img.src" :alt="img.alt" />
-              </a>
+          <v-row align="center">
+            <v-col style="flex-basis: 200px; flex-grow: 0">
+              <div class="FirstPrize-Award">大賞 :</div>
+              <div class="FirstPrize-Team">Civichat</div>
+            </v-col>
+            <v-col style="flex-grow: 1">
+              <p>
+                <ExternalLink href="https://civichat.jp">Civichat</ExternalLink>
+                は2020年12月から熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
+                  href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
+                  >実証実験を行い</ExternalLink
+                >、現在ベータ版を提供しています。（<ExternalLink
+                  href="https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085"
+                  >市公式リリース</ExternalLink
+                >）
+              </p>
             </v-col>
           </v-row>
         </div>
