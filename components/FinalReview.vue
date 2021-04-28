@@ -12,7 +12,10 @@
       </p>
     </div>
     <div class="FinalReview-Image">
-      <a href="https://www.youtube.com/watch?v=VIgMtTQtkHA"
+      <a
+        href="https://www.youtube.com/watch?v=VIgMtTQtkHA"
+        rel="noreferrer nofollow noopener"
+        target="_blank"
         ><img src="@/static/Final.jpg"
       /></a>
     </div>
