@@ -1,6 +1,6 @@
 <template>
   <span>
-    <a :href="href" target="_blank" rel="noopener"><slot></slot></a>
+    <a :href="href" target="_blank" rel="noreferrer noopener"><slot></slot></a>
   </span>
 </template>
 

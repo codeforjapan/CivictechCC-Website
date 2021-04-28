@@ -6,7 +6,7 @@
     color="#170f7b"
     href="https://ccc2021.code4japan.org/"
     target="_blank"
-    rel="noreferrer nofollow noopener"
+    rel="noreferrer noopener"
   >
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
       <div class="ButtonEntry-Line1">2021年版はこちらから</div>
