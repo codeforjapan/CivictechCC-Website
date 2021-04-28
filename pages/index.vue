@@ -31,9 +31,3 @@
   overflow: hidden;
 }
 </style>
-<script>
-import ButtonEntry from '../components/ButtonEntry'
-export default {
-  components: { ButtonEntry },
-}
-</script>
