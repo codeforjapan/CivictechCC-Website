@@ -11,14 +11,15 @@
             </v-col>
             <v-col style="flex-grow: 1">
               <p>
-                <ExternalLink href="https://civichat.jp">Civichat</ExternalLink>
-                は2020年12月から熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
+                <ExternalLink href="https://civichat.jp">Civichat</ExternalLink
+                >は2020年12月から熊本地震の「被災者支援制度」の案内ツールとして<ExternalLink
                   href="https://prtimes.jp/main/html/rd/p/000000002.000070804.html"
                   >実証実験を行い</ExternalLink
-                >、現在ベータ版を提供しています。（<ExternalLink
+                >（<ExternalLink
                   href="https://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=34085"
-                  >市公式リリース</ExternalLink
-                >）
+                  >熊本市公式リリース</ExternalLink
+                >
+                ）、現在ベータ版のサービス提供がスタートしています。（2021年4月末現在)
               </p>
             </v-col>
           </v-row>
