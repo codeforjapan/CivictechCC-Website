@@ -7,16 +7,16 @@
     />
     <div class="FinalReview-Description">
       <p>
-        事前選考を勝ち抜いたファイナリストがプレゼンテーションを行い、大賞・企業賞を決定するCivictech
-        Challenge Cupの集大成、最終審査会を10月25日に開催します！
-      </p>
-      <p>
-        <del> 申し込みはこちらのPeatixページから！ </del>
-        <span style="color: red">終了しました</span>
+        2020年10月25日開催<br />
+        応募した105名が組成したチーム27組が作品を提出し、一次選考を通過した10組がファイナリストとして最終審査会にてプレゼンテーションを行いました。<br />
+        最終審査会のアーカイブは画像から！
       </p>
     </div>
     <div class="FinalReview-Image">
-      <a href="https://ccc-final-review.peatix.com/"
+      <a
+        href="https://www.youtube.com/watch?v=VIgMtTQtkHA"
+        rel="noreferrer nofollow noopener"
+        target="_blank"
         ><img src="@/static/Final.jpg"
       /></a>
     </div>

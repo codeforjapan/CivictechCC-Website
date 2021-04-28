@@ -1,7 +1,9 @@
 <template>
   <div>
     <v-container>
-      <twitter-share />
+      <div style="justify-content: center; display: flex" class="mb-2">
+        <ButtonEntry />
+      </div>
       <result />
       <final-review />
       <theme-sample />
