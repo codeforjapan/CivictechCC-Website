@@ -5,7 +5,7 @@
         <v-toolbar-title class="Title">
           <span class="Title-Lines">Civictech </span>
           <span class="Title-Lines">Challenge </span>
-          <span class="Title-Lines">Cup</span>
+          <span class="Title-Lines">Cup 2020</span>
         </v-toolbar-title>
         <v-spacer />
         <ButtonEntry inner-padding="10px 20px" />
