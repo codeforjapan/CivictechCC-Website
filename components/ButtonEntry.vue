@@ -1,7 +1,15 @@
 <template>
-  <v-btn class="ButtonEntry" height="55px" rounded color="#170f7b" disabled>
+  <v-btn
+    class="ButtonEntry"
+    height="55px"
+    rounded
+    color="#170f7b"
+    href="https://ccc2021.code4japan.org/"
+    target="_blank"
+    rel="noreferrer nofollow noopener"
+  >
     <div class="ButtonEntry-Inner" :style="{ padding: innerPadding }">
-      <div class="ButtonEntry-Line1">エントリーは終了しました！</div>
+      <div class="ButtonEntry-Line1">2021年版はこちらから</div>
     </div>
   </v-btn>
 </template>
@@ -23,7 +31,7 @@ export default {
   &-Line1,
   &-Line2 {
     font-family: $font-ja;
-    color: black;
+    color: white;
     text-align: center;
     line-height: 1;
   }
