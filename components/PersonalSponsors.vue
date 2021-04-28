@@ -19,7 +19,7 @@
         </span>
       </v-btn>
     </div>
-    <section-title en-title="" ja-title="ご協賛いただいた皆様 (9月14日現在)" />
+    <section-title en-title="" ja-title="ご協賛いただいた皆様" />
     <div class="PersonalSponsors-Description">
       <span v-for="(name, index) in names" :key="index">
         <span class="PersonalSponsors-Names">
@@ -27,6 +27,12 @@
         </span>
       </span>
     </div>
+    <span
+      class="PersonalSponsors-Description"
+      style="padding: 0; font-size: 20px"
+    >
+      匿名希望の方からも協賛をいただいております。ご協力いただきありがとうございました。
+    </span>
   </section>
 </template>
 
