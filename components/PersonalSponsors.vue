@@ -31,7 +31,7 @@
       class="PersonalSponsors-Description"
       style="padding: 0; font-size: 20px"
     >
-      匿名希望の方からも協賛をいただいております。ご協力いただきありがとうございました。
+      他にも、匿名を希望されている方からも協賛をいただいております。ご協力いただきありがとうございました。
     </span>
   </section>
 </template>
